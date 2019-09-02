@@ -42,12 +42,12 @@ set wrapscan               " Searches wrap around end-of-file.
 set report      =0         " Always report changed lines.
 set synmaxcol   =200       " Only highlight the first 200 columns.
 
-set list                   " Show non-printable characters.
-if has('multi_byte') && &encoding ==# 'utf-8'
-  let &listchars = 'tab:▸ ,extends:❯,precedes:❮,nbsp:±'
-else
-  let &listchars = 'tab:> ,extends:>,precedes:<,nbsp:.'
-endif
+"set list                   " Show non-printable characters.
+"if has('multi_byte') && &encoding ==# 'utf-8'
+let &listchars = 'tab:▸ ,extends:❯,precedes:❮,nbsp:±'
+"else
+"  let &listchars = 'tab:> ,extends:>,precedes:<,nbsp:.'
+"endif
 
 " The fish shell is not very compatible to other shells and unexpectedly
 " breaks things that use 'shell'.
@@ -122,10 +122,17 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " Airline Config
-let g:airline_detect_modified=1
-let g:airline_left_sep = '▶'
-let g:airline_right_sep = '◀'
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+let g:rehash256 = 1
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_alt_sep = '▸'
-let g:airline#extensions#tabline#formatter = 'default'
 let g:airline_theme='simple'
+let g:airline_left_sep = '⮀'
+let g:airline_left_alt_sep = '⮁'
+let g:airline_right_sep = '⮂'
+let g:airline_right_alt_sep = '⮃'
+let g:airline_symbols.branch = '⭠'
+let g:airline_symbols.readonly = '⭤'
+let g:airline_symbols.linenr = '⭡'
