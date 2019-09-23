@@ -1,0 +1,22 @@
+h1 {
+    font-family: noto-sans;
+    color: tomato;
+    border-bottom: 2px solid black;
+    width:164px;
+}
+   
+.first {
+    width: 720px;
+    height: 624px;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 3px 3px  grey;
+}
+
+.firstchange {
+    width: 720px;
+    height: 624px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 3px 3px  grey;
+    background-color: #D1D1D1;
+}

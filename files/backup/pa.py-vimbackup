@@ -1,0 +1,11 @@
+import requests
+'''
+import webbrowser
+param = {"wd": "莫烦Python"}  # 搜索的信息
+'''
+r = requests.get('https://github.com/User-Hrsat')
+
+filename = 'index.html'
+with open(filename, 'w') as f:
+    f.write(r)
+#webbrowser.open(r.url)

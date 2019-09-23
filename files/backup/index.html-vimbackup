@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>计网188班柴添鑫201803010840</title>
+</head>
+
+<body>
+    <center>
+        <h1><a name="top">顶部标题</a></h1>
+        <h2>二级标题A</h2>
+        <p>
+            <div style="width: 1020px; height: 186px; background-color: rgba(106, 170, 106, 0.445); border-radius: 24px">
+                <table border="1" frame="box">
+                    <caption>188班2019~2020学年上半期课程表</caption>
+                    <tr>
+                        <th align="center">课节\周</th>
+                        <th align="center">周一</th>
+                        <th align="center">周二</th>
+                        <th align="center">周三</th>
+                        <th align="center">周四</th>
+                        <th align="center">周五</th>
+                    </tr>
+                    <tr>
+                        <th align="center">1~2</th>
+                        <td align="center">网络互联;图513;梁书娟</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">网页制作;图611;焦禹淦</td>
+                        <td align="center">综合布线;图608;徐丹丹</td>
+                        <td align="center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th align="center">3~4</th>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">网络互联;1502-2;梁书娟</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">(暂)体育;操场;李宗营</td>
+                    </tr>
+                    <tr>
+                        <th align="center">5~6</th>
+                        <td align="center">Java程序设计;图611;陈莹莹</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">网页制作;1404;焦禹淦</td>
+                        <td align="center">综合布线;1401-1;徐丹丹</td>
+                    </tr>
+                    <tr>
+                        <th align="center">7~8</th>
+                        <td align="center">Java程序设计;1306;陈莹莹</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+        </p>
+        <h2>二级标题B</h2>
+        <p>
+            <div style="width: 128px; height: 198px; background-color: rgba(23, 225, 243, 0.541); border-radius: 18px">
+                <ul>
+                    <li>:{</li>
+                    <li>:}</li>
+                    <li>:(</li>
+                    <li>:)</li>
+                </ul>
+                <ol type="A">
+                    <li>~(0_0)~</li>
+                    <li>(0_0)/</li>
+                    <li>\(0_0)</li>
+                    <li>L(0_0)L</li>
+                </ol>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /> 大量换行效果会更好
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div style="width: 84px; height: 24px; float: inline-start; background-color: #cccccca2; border: 2px solid #6e6e6e83; border-radius: 20px">
+                <a href="#top">返回顶部</a>
+            </div>
+            <br />
+        </p>
+    </center>
+</body>
+
+</html>

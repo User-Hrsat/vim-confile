@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int a = 64, i = 1;
+
+    while (a != i)
+    {
+        a ++;
+        i ++;
+        printf("---> 第 %d 次递归，结果 = %d.\n\a", i, a);
+    }
+
+    return 0;
+}

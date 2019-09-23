@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+
+from socket import *
+from time import ctime
+
+HOST = '127.12.34.1'
+PORT = 21567
+BUFSIZ = 4096
+ADDR = (HOST, PORT)
+
+tcpSerSock = socket(AF_INET, SOCK_STREAM)
+tcpSerSock.bind(ADDR)
+tcpSerSock.listen(5)
+
+while True:
+    print("...等待连接中...")
+    tcpCliSock, addr = tcpSerSock.accept()
+    print("...连接自：", addr)
+
+    while True:
+        data = tcpCliSock.recv(BUFSIZ)
+        if not data:
+            break
+        tcpCliSock.send('>>{}\n>>{}\n>>成功'.format(bytes(ctime(), 'utf-8'), data.decode()).encode())
+
+    tcpCliSock.close()
+tcpSerSock.close()
+
