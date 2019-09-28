@@ -95,6 +95,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " 中文文档
 Plug 'yianwillis/vimcdoc'
 
+"Markdown预览
+Plug 'iamcco/markdown-preview.nvim'
+
 " Make sure you use single quotes
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
@@ -145,3 +148,5 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = '☰ '
 let g:airline_symbols.maxlinenr = ' '
+
+let g:mkdp_browser = "chromium"

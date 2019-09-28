@@ -1,4 +1,4 @@
 # 个人Vim配置文件
 
-- 箭头显示不是很好
-- coc补全需要配置
+- coc-ccls问题
+- Markdownreview问题
