@@ -1,0 +1,12 @@
+<html>
+    
+    <head>
+        <title>Test,Inc</title>
+    </head>
+
+    <body>
+        <embed src="music/We can't slow down.mp3" autostart="true" loop="true"></embed>
+        <p>Test</p>
+    </body>
+</html>
+

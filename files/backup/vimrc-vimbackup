@@ -88,6 +88,7 @@ Plug 'Yggdroot/indentLine'
 
 " 文件树
 Plug 'scrooloose/nerdtree'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " 补全
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

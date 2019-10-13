@@ -9,6 +9,12 @@
                     "directory": "/tmp/ccls"
                 }
             }
+        },
+
+        "efm": {
+            "command": "efm-langserver",
+            "args": ["-c", "/home/hrsat/.config/efm-langserver/config.yaml"],
+            "filetypes": ["vim", "eruby", "markdown", "yaml"]
         }
     }
 }

@@ -1,0 +1,36 @@
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAO4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Window-Maximized 1080x1920=true
+
+[Desktop Entry]
+FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
+
+[MainWindow]
+Height 1080=756
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABaAAAALPAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1440
+
+[Recent Files]
+File1[$e]=$HOME/Documents/PDF/Head First HTML5 Programming（中文版）.pdf
+File10[$e]=$HOME/Documents/PDF/jls12.pdf
+File2[$e]=$HOME/Documents/PDF/docker_practice.pdf
+File3[$e]=$HOME/Documents/PDF/Python核心编程(第3版).pdf
+File4[$e]=$HOME/Trings/qqbot/README.MD
+File5[$e]=$HOME/Trings/Blog/source/_posts/Test.md
+File6[$e]=$HOME/Documents/PDF/java-a-beginners-guide-1720064.pdf
+File7[$e]=$HOME/Documents/PDF/progit_v2.1.28.pdf
+File8[$e]=$HOME/Documents/PDF/learnvimscriptthehardway-sample.pdf
+File9[$e]=$HOME/Documents/PDF/深入浅出SQL 中文版.pdf
+Name1[$e]=Head First HTML5 Programming（中文版）.pdf
+Name10[$e]=jls12.pdf
+Name2[$e]=docker_practice.pdf
+Name3[$e]=Python核心编程(第3版).pdf
+Name4[$e]=README.MD
+Name5[$e]=Test.md
+Name6[$e]=java-a-beginners-guide-1720064.pdf
+Name7[$e]=progit_v2.1.28.pdf
+Name8[$e]=learnvimscriptthehardway-sample.pdf
+Name9[$e]=深入浅出SQL 中文版.pdf

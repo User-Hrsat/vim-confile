@@ -1,0 +1,14 @@
+public class OOP {
+
+    public static void main(String[] args) {
+        
+    }
+}
+
+class C0 {
+
+    void pr0() {
+        System.out.printf(">>>Test")
+    }
+    
+}

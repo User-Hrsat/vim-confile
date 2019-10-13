@@ -1,0 +1,19 @@
+import urllib.request
+import os
+
+url = input(">>>输入需要爬取的网站地址\n>>>")
+
+print(">>>正在抓取页面...")
+response = urllib.request.urlopen(url)
+
+page = response.read()
+page = page.decode('utf-8')
+
+index = open('index.html', 'w', encoding='utf-8')
+index.write(page)
+index.close()
+print(">>>页面亿保存至index.html")
+print(">>>查看文件...")
+
+os.system('chromium ~/Trings/pytring/index.html')
+

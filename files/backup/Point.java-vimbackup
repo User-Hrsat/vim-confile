@@ -1,0 +1,29 @@
+package javatring;
+
+import java.util.Scanner; // Import the Scanner class
+
+public class Point {
+    public static void main(String[] args) {
+        
+        Scanner myObj = new Scanner (System.in);  // Create a Scanner object
+        
+        System.out.print(">>请输入成绩，由我来判别等级！\n>>");
+        
+        float Userpoint = myObj.nextFloat();  // Read user input
+        String Userlevel = new String();
+        
+        if (Userpoint > 90) {
+            Userlevel = "优秀";
+        } else if (Userpoint > 80 && Userpoint < 90) {
+            Userlevel = "良好";
+        } else if (Userpoint > 70 && Userpoint < 80) {
+            Userlevel = "中等";
+        } else if (Userpoint > 60 && Userpoint < 70) {
+            Userlevel = "及格";
+        } else {
+            Userlevel = "不及格";
+        }
+
+        System.out.println(">>该学生所属等级是：" + Userlevel);  // 输出等级
+    }
+}
