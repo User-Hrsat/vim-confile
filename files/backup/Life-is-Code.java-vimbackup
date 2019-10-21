@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Life-is-Code {
+     public static void main(String[] args) {
+        Scanner Input = new Scanner();
+        String User_input = Input.next();
+        switch (User_input) {
+            case "A":
+                //coding
+                break;
+            case "B":
+                //eat
+                break;
+            case "C":
+                //learn
+                break;
+            case "D":
+                //sleep
+                break;
+            default:
+                break;
+        }
+    }
+}
+
+class coding {
+    
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>\(0_0)注册</title>
+        <link rel="stylesheet" type="text/css" href="css/02.css"/>
+    </head>
+
+    <body>
+        <div id="background" align="center">
+            <div id="blank"></div>
+            <div id="toptext">
+                <p>注册属于你的账户</p>
+            </div>
+            <div id="mainbox" align="center">
+                <br/>
+                <br/>
+                <label>昵称:</label>
+                <input id="username"/>
+                <br/>
+                <br/>
+                <label>密码:</label>
+                <input id="passwd"/>
+                <br/>
+                <br/>
+                <button><a href="index.html">返回</a></button> 
+            </div>
+        </div>
+    </body>
+</html>

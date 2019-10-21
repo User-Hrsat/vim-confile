@@ -1,0 +1,25 @@
+---
+title: Log
+date: 2019-10-14 16:16:42
+tags: 日记
+---
+
+## 今天Manjaro更新了
+
+> 好多问题
+- gnome系列版本号3.34.1
+
+#### Gnome更新，插件未及时更新
+- netspeed(实时网速监控)
+- topiconplus(软件图标集中至顶栏)
+- coverflow(动画alt-tab)
+
+#### 其它问题
+- deepin-wine-tim无法输入中文
+- gnome-tweaks显示异常
+- 自定义主题在某些细节不足
+个别问题可以使用其他插件替代;这赶脚有点像Minecraft更新了,但我还是喜欢1.12;上个版本3.32不错
+
+> 博客的大部分功能没有开
+
+![](img/dzt.png)

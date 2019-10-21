@@ -1,4 +1,3 @@
-# 个人Vim配置文件
+# Myself Vim Config File
 
-- coc-ccls问题
-- Markdownreview问题
+- coc-java have some problem
