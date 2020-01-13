@@ -1,3 +1,3 @@
-# Myself Vim Config File
+# Myself Vim Configuration File
 
 - coc-java have some problem
