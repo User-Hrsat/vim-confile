@@ -1,9 +1,0 @@
-import chaitianxin.Test;
-
-public class Game {
-
-    public static void main(String[] args){
-        Test.main(args);
-        Test.Prin();
-    }
-}

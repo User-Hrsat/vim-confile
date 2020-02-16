@@ -1,3 +1,0 @@
-javac src/Game.java -d bin/
-cd bin/
-java Game

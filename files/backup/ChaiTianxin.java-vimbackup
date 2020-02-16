@@ -1,7 +1,0 @@
-package src.ChaiTianxin;
-public class ChaiTianxin {
-
-    public static void main(String[] args){
-        System.out.println("Hello World!");
-    }
-}
