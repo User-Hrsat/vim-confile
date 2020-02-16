@@ -4,12 +4,13 @@ public class  LifeisCode {
      public static void main(String[] args) {
          
          Scanner _Input = new Scanner(System.in);
+         coding _coding = new coding();
          
+         System.out.printf(">>Please!\n>>");
          String User_input = _Input.next();
          switch (User_input) {
              case "A":
-                 coding coding = new coding();
-                 coding.code();
+                 _coding.code();
                  break;
              case "B":
                  break;
@@ -24,7 +25,9 @@ public class  LifeisCode {
 }
 
 class coding {
-    void code() {
-        System.out.printf("Test");
+    
+    public void code() {
+        System.out.printf(">>Test\n");
     }
+
 }

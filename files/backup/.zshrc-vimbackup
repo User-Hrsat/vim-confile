@@ -100,17 +100,25 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias hosts='sudo wget https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts -O /etc/hosts'
+alias hosts-update='sudo wget https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts -O /etc/hosts'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # colourful man page
-#export LESS_TERMCAP_mb=$'\E[01;34m'
-#export LESS_TERMCAP_md=$'\E[01;34m'
-#export LESS_TERMCAP_me=$'\E[0m'
-#export LESS_TERMCAP_us=$'\E[01;32m'
-#export LESS_TERMCAP_ue=$'\E[0m'
-#export LESS_TERMCAP_so=$'\E[01;33;44m'
-#export LESS_TERMCAP_se=$'\E[0m'
+export LESS_TERMCAP_mb=$'\E[01;34m'
+export LESS_TERMCAP_md=$'\E[01;34m'
+export LESS_TERMCAP_me=$'\E[0m'
+export LESS_TERMCAP_us=$'\E[01;32m'
+export LESS_TERMCAP_ue=$'\E[0m'
+export LESS_TERMCAP_so=$'\E[01;33;44m'
+export LESS_TERMCAP_se=$'\E[0m'
+# End
+
+# 终端代理
+#export http_proxy="http://127.0.0.1:2333"
+
+# PATH会被重新赋值，所以写在这儿
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/hrsat/efm-langserver/bin

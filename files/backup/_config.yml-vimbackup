@@ -91,11 +91,13 @@ profile:
   # You can set Avatar URL directly
   avatar: /img/logo.jpeg
 
-  bio: Awesome guy.
+  # bio: Awesome guy.
 
 # Sidebar navigation links
 menu:
   Home: /
+  Blender: /Blender
+  🚫404: /404
   # About: /about
   # Links: /links
   # Github: https://github.com/username
@@ -127,7 +129,7 @@ sns:
 # Sidebar footer copyright info
 footer:
   # Set to false to hide.
-    copyright: '&copy; 2019 🎉 <a href="https://github.com/User-Hrsat/">User-Hrsat</a> 🎔'
+    copyright: '&copy; 2019-2021 🎉 <a href="https://github.com/User-Hrsat/">User-Hrsat</a> 🎔'
 
   # Set to false to hide Hexo link.
   # powered: false
@@ -316,7 +318,7 @@ data_prefix:
 data_dir:
 
 # Favicon, default to `favicon.ico`
-favicon:
+favicon: img/logo.jpeg
 
 # Google analytics
 # ga: UA-00000000-0
@@ -324,7 +326,7 @@ favicon:
 # SEO
 seo:
   # Render structured-data in <head>, default to `false`
-  structured_data: true
+  # structured_data: true
 
 # PWA
 pwa:

@@ -1,7 +1,3 @@
-
-" A (not so) minimal vimrc.
-"
-
 " You want Vim, not vi. When Vim finds a vimrc, 'nocompatible' is set anyway.
 " We set it explicitely to make our position clear!
 set nocompatible           " 去除Vi一致性
@@ -18,7 +14,7 @@ set termencoding=utf-8     " Vim 在于屏幕/键盘交互时使用的编码(取
 set fileencoding=utf-8     " 当前编辑的文件在存储时的编码
 set fileencodings=ucs-bom,utf-8,gbk  " 打开文件时的尝试使用的编码
 
-set number!		   " 强制显示行号
+set number!                " 强制显示行号
 set autoindent             " Indent according to previous line.
 set expandtab              " Use spaces instead of tabs.
 set softtabstop =4         " Tab key indents by 4 spaces.
@@ -34,7 +30,7 @@ set showmode               " Show current mode in command-line.
 set showcmd                " Show already typed keys when more are expected.
 
 set incsearch              " Highlight while searching with / or ?.
-set hlsearch               " Keep matches highlighted.
+"set hlsearch               " Keep matches highlighted.
 
 set ttyfast                " Faster redrawing.
 set lazyredraw             " Only redraw when necessary.
@@ -43,17 +39,18 @@ set splitbelow             " Open new windows below the current window.
 set splitright             " Open new windows right of the current window.
 
 set cursorline             " Find the current line quickly.
+set cursorcolumn           " 高亮列
 set wrapscan               " Searches wrap around end-of-file.
 set report      =0         " Always report changed lines.
 set synmaxcol   =200       " Only highlight the first 200 columns.
 
-"set list lcs=tab:\|\
-"set list                   " Show non-printable characters.
-"if has('multi_byte') && &encoding ==# 'utf-8'
-"let &listchars = 'tab:▸,extends:❯,precedes:❮,nbsp:±'
-"else
-"  let &listchars = 'tab:> ,extends:>,precedes:<,nbsp:.'
-"endif
+" set list lcs=tab:\|\
+" if has('multi_byte') && &encoding ==# 'utf-8'
+" let &listchars = 'tab:▸,extends:❯,precedes:❮,nbsp:±'
+" else
+"   let &listchars = 'tab:> ,extends:>,precedes:<,nbsp:.'
+" endif
+set list                   " Show non-printable characters.显示不可见字符
 
 " The fish shell is not very compatible to other shells and unexpectedly
 " breaks things that use 'shell'.
@@ -88,11 +85,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Plug 'powerline/powerline'
 
+" 将文件类型图标添加到Vim插件;例如:NERDTree,vim-airline,CtrlP,unite,Denite,lightline,vim-startify等
+Plug 'ryanoasis/vim-devicons'
+
 " 缩进线
 Plug 'Yggdroot/indentLine'
 
 " 文件树
 Plug 'scrooloose/nerdtree'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " 补全
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -102,6 +103,8 @@ Plug 'yianwillis/vimcdoc'
 
 "Markdown预览
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+
+" Plug 'artur-shaik/vim-javacomplete2'
 
 " 官方示例
 " Make sure you use single quotes
@@ -138,10 +141,11 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 call plug#end()
 
 " Airline Config
-let g:airline_powerline_fonts = 1  " powerline 字体
+" let g:airline_powerline_fonts = 1  " powerline 字体
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
+
 let g:rehash256 = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='base16_monokai'
@@ -156,3 +160,12 @@ let g:airline_symbols.maxlinenr = ' '
 
 " Markdown预览默认浏览器
 let g:mkdp_browser = "chromium"
+
+" NERDTree设置
+let g:NERDTreeDirArrowExpandable = ' '
+let g:NERDTreeDirArrowCollapsible = ' '
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1

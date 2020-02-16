@@ -47,8 +47,4 @@ export PT7HOME
 QT_DEVICE_PIXEL_RATIO=auto
 export QT_DEVICE_PIXEL_RATIO
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/home/hrsat/go/bin
-export XMODIFIERS=@im=ibus
-
-JAVA_HOME=/usr/lib/jvm/java-13-openjdk
-export PATH=$PATH:$JAVA_HOME/bin
+export PATH=$PATH:/home/hrsat/efm-langserver/bin

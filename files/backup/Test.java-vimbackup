@@ -1,32 +1,12 @@
-import java.util.Random;
+package chaitianxin;
 
 public class Test {
-    public static void main(String[] args) {
-        
-        int a[] = new int[12];
-        int x = -65;
-        int y = 65;
-        Random r = new Random();
 
-        System.out.printf("a[] = ");
-        for (int i = 0; i < a.length; i++){
-            
-            a[i] = r.nextInt(128)-64;
-            System.out.printf(a[i] + " ");
-        }
+    public static void main(String[] args){
+        System.out.println("Hello Test!");
+    }
 
-        for (int i = 0; i < a.length; i++){
-
-            int z = a[i];
-
-            if (x < z) {
-                x = z;
-            }
-            if (y > z) {
-                y = z;
-            }   
-        }
-        System.out.printf("\n最大数为:" + x + "\n");
-        System.out.printf("最小数为:" + y + "\n");
+    public static void Prin(){
+        System.out.println("Test Prin");
     }
 }

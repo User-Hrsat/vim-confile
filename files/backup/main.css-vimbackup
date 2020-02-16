@@ -1,34 +1,137 @@
-#background {
-    background-color: #AAB8A3;
+.top_bar {
     width: 100%;
-    height: 927px
+    position: absolute;
+    left: 0%;
+    top: 0%
 }
 
-#blank {
+.foot_bar {
     width: 100%;
-    height: 24%
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
 }
 
-#toptext {
-    width: 100%;
-    font-size: 24px;
-    color: #FFFFDD
+.fbox {
+    width: 20%;
+    position: absolute;
 }
 
-#mainbox {
-    background-color: #EBEDF4;
-    width: 360px;
-    height: 228px;
-    border-radius: 12px;
-    box-shadow: 2px 2px 3px 3px  grey
+.search_box {
+    padding: 6px 18px;
+    width: 142px;
+    border: 1px solid #CCC;
+    border-radius: 18px;
+    cursor: text
 }
 
-#username {
-    width: 216px;
-    height: 24px
+.logo_sz {
+    width: 48px;
+    height: 48px;
 }
 
-#passwd {
-    width: 216px;
-    height: 24px
+.img_sz {
+    width: 460px;
+    height: 260px;
+    border-radius: 18px
+}
+
+.ava {
+    width: 42px;
+    height: 42px;
+}
+
+.no_lin {
+    outline-style: none
+}
+
+.log_bt {
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    font-size: 22px;
+    cursor: pointer
+}
+
+.a_fl {
+    position: absolute;
+    top: 36%
+}
+
+.box_fl {
+    position: absolute;
+    top: 80%
+}
+
+.hor_line {
+    border: 0.5px solid #ccc;
+    height: 0%; width: 28%;
+    position: absolute;
+    top: 8%
+}
+
+.nav_link {
+    color: black
+}
+
+.nav_link:focus {
+    padding: 16px 4px;
+    border-bottom: 3px solid #3399CC
+}
+
+.title_sty {
+    font-size: 21px
+}
+
+li {
+    list-style: none;
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+    color: #CCC
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+
+/* structural elements 结构元素 */
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+
+/* list elements 列表元素 */
+
+pre,
+
+/* text formatting elements 文本格式元素 */
+
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+
+/* form elements 表单元素 */
+
+th,
+td
+/* table elements 表格元素 */
+
+{
+    margin: 0;
+    padding: 0;
 }

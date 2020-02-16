@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>123</title>
+    </head>
+</html>
+
+<body>
+    <script>
+    $(function () {
+        $(function(){
+            $(window).scroll(function(){
+                if($(window).scrollTop() > 100){
+                    $("#gotop").fadeIn(1000);//一秒渐入动画
+                }else{
+                    $("#gotop").fadeOut(1000);//一秒渐隐动画
+                }
+            });
+
+            $("#gotop").click(function(){
+                $('body,html').animate({scrollTop:0},1000);
+            });
+        });
+    });
+</script>
+    <span  name="gotop">
+    <div style="height: 2000px">
+    </div>
+    </span>
+    <span>
+    <a href="#gotop" >
+       <img src="mcimg/scrollTo.png" id="gotop" alt="" style="position: fixed;bottom: 10px;display: none;">
+   </a>
+    </span>
+</body>
+</html>

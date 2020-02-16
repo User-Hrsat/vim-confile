@@ -1,0 +1,13 @@
+package chaiTianxin;
+
+public class Test01 {
+
+    public static void main(String[] args) {
+        Test01 a = new Test01();
+        a.Tes();
+    }
+
+    public void Tes() {
+        System.out.println("Ce Shi");
+    }
+}

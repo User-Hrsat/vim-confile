@@ -1,5 +1,5 @@
 {
-    "java.jdt.ls.home": "/opt/jdtls",
+    "java.jdt.ls.home": "/home/hrsat/jdtls",
     "suggest.autoTrigger": "always",
     "suggest.timeout": 500,
     "suggest.noselect": false,
