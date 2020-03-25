@@ -2,47 +2,48 @@
 " We set it explicitely to make our position clear!
 set nocompatible           " 去除Vi一致性
 
-filetype plugin indent on  " Load plugins according to detected filetype.
-syntax on                  " Enable syntax highlighting.
+filetype plugin indent on  " 根据检测到的文件类型加载插件
+syntax on                  " 开启语法高亮
 
-set t_Co=256               " 256色
+set t_Co        =256       " 256色
 set termguicolors
 colorscheme vim-monokai-tasty
 
-set encoding=utf-8         " Vim 内部编码
+set encoding    =utf-8     " Vim 内部编码
 set termencoding=utf-8     " Vim 在于屏幕/键盘交互时使用的编码(取决与实际的终端设定)
 set fileencoding=utf-8     " 当前编辑的文件在存储时的编码
 set fileencodings=ucs-bom,utf-8,gbk  " 打开文件时的尝试使用的编码
 
 set number!                " 强制显示行号
-set autoindent             " Indent according to previous line.
-set expandtab              " Use spaces instead of tabs.
-set softtabstop =4         " Tab key indents by 4 spaces.
-set shiftwidth  =4         " >> indents by 4 spaces.
-set shiftround             " >> indents to next multiple of 'shiftwidth'.
+set autoindent             " 根据上一行缩进
+set expandtab              " 使用空格代替制表符
+set softtabstop =4         " Tab键缩进4个空格
+set shiftwidth  =4         " >> 缩进4个空格
+set shiftround             " >> 缩进“shiftwidth”的下一个倍数
 
-set backspace   =indent,eol,start  " Make backspace work as you would expect.
-set hidden                 " Switch between buffers without having to save first.
-set laststatus  =2         " Always show statusline.
-set display     =lastline  " Show as much as possible of the last line.
+set backspace   =indent,eol,start  " 使退格按预期工作
+set hidden                 " 在缓冲区之间切换而不必先保存
+set laststatus  =2         " 始终显示状态栏
+set display     =lastline  " 尽可能多的显示最后一行
 
-set showmode               " Show current mode in command-line.
-set showcmd                " Show already typed keys when more are expected.
+set showmode               " 在命令行中显示当前模式
+set showcmd                " 在需要更多键时显示已键入的键
 
-set incsearch              " Highlight while searching with / or ?.
-"set hlsearch               " Keep matches highlighted.
+set incsearch              " 用/或?搜索时突出显示
+"set hlsearch               " 保持匹配突出显示
 
-set ttyfast                " Faster redrawing.
-set lazyredraw             " Only redraw when necessary.
+set ttyfast                " 更快的重绘
+set lazyredraw             " 仅在必要时重绘
 
-set splitbelow             " Open new windows below the current window.
-set splitright             " Open new windows right of the current window.
+set splitbelow             " 在当前窗口下方打开新窗口
+set splitright             " 在当前窗口的右侧打开新窗口
 
-set cursorline             " Find the current line quickly.
-set cursorcolumn           " 高亮列
-set wrapscan               " Searches wrap around end-of-file.
-set report      =0         " Always report changed lines.
-set synmaxcol   =200       " Only highlight the first 200 columns.
+"set guicursor   =a:hor1-blinkon1-blinkwait1
+set cursorline             " 高亮光标所在行
+set cursorcolumn           " 高亮光标所在列
+set wrapscan               " Searches wrap around end-of-file. 循环搜索至文件末尾
+set report      =0         " 始终报告更改的行
+set synmaxcol   =200       " 仅突出显示前200列
 
 " set list lcs=tab:\|\
 " if has('multi_byte') && &encoding ==# 'utf-8'
@@ -71,7 +72,6 @@ set undodir     =$HOME/.vim/files/undo/
 set viminfo     ='100,n$HOME/.vim/files/info/viminfo
 
 " 插件管理器
-
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
@@ -140,8 +140,9 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 " Initialize plugin system
 call plug#end()
 
-" Airline Config
+" Airline配置
 let g:airline_powerline_fonts = 1  " powerline 字体
+
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
