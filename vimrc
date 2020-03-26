@@ -5,7 +5,7 @@ set nocompatible           " 去除Vi一致性
 filetype plugin indent on  " 根据检测到的文件类型加载插件
 syntax on                  " 开启语法高亮
 
-set t_Co        =256       " 256色
+"set t_Co        =256      " 256色
 set termguicolors
 colorscheme vim-monokai-tasty
 
