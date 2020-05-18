@@ -1,0 +1,8 @@
+## 2.20学习任务
+> 写Markdown方便一点
+
+1. 在CSS中，用于设置行距的属性是（line-height）
+2. 在CSS中，用于定义字体风格，如设置斜体、倾斜或正常字体的属性是（font-family）
+3. 内嵌式是将CSS代码集中写在HTML文档的（stype）标记中，并且用（type="text/css"）标记定义
+4. "input"标记有多个属性，其中（type）属性为其最基本属性，用于指定不同的控件类型
+> 去掉尖括号，Markdown兼容HTML，会变输入框

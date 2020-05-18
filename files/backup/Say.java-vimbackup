@@ -1,0 +1,18 @@
+package Hello;
+
+import Hello.Hello;
+
+/**
+ * Say
+ */
+public class Say implements Hello{
+
+    public void talk(){
+        System.out.println("Hello,");
+    }
+
+    public static void main(String args[]){
+        Say s = new Say();
+        s.talk();
+    }
+}

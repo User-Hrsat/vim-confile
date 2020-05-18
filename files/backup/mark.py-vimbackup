@@ -1,0 +1,17 @@
+#! /usr/bin/env python
+
+print(">>分数等级判定!")
+
+mark = float(input(">>请输入你的分数:"))
+
+if mark <=100 and mark >=0:
+    if mark >= 90:
+        level = "优"
+    elif mark < 90 and mark >= 80:
+        level = "良"
+    elif mark < 80 and mark >= 70:
+        level = "中"
+    elif mark < 70 and mark >= 60:
+        level = "及格"
+    else:
+        level = "不及格"

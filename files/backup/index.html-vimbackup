@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apache</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    </head>
+
+    <body style="align-items: center;">
+        <p>文件都在/srv/http</p>
+        <a href="info.php">点击以查看更多信息</a>
+    </body>
+</html>

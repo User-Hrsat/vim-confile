@@ -1,0 +1,43 @@
+from mirai import Mirai, Plain, MessageChain, Group
+import asyncio
+import os
+import re
+
+qq = 1291517893 # 字段 qq 的值
+authKey = 'MeuPasswd' # 字段 authKey 的值
+mirai_api_http_locate = '192.168.3.98:8080/' # httpapi所在主机的地址端口,如果 setting.yml 文件里字段 "enableWebsocket" 的值为 "true" 则需要将 "/" 换成 "/ws", 否则将接收不到消息.
+
+app = Mirai(f"mirai://{mirai_api_http_locate}?authKey={authKey}&qq={qq}", websocket=True)
+messages = str()
+@app.receiver("GroupMessage")
+async def event_gm(app: Mirai, group: Group, message: MessageChain):
+
+    messages = MessageChain.toString(self=message)
+    print(messages)
+    r = re.match("/ping ((25[0-5])|(2[0-4]d)|(1dd)|([1-9]d)|d)(.((25[0-5])|(2[0-4]d)|(1dd)|([1-9]d)|d)){3}", messages)
+    e = re.match("/ping [a-zA-Z0-9][-a-zA-Z0-9]{0,62}(.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+.?", messages)
+    if r != None or e != None:
+
+        await app.sendGroupMessage(
+                group,
+                [
+                    Plain(text="功能待完善!")
+                ]
+        )
+
+    elif r == None or e == None:
+
+        await app.sendGroupMessage(
+                group,
+                [
+                    Plain(text=
+"""
+正确用法:
+/ping IPor域名
+一定要填写正确的IP或域名哦!
+""")
+                ]
+        )
+
+if __name__ == "__main__":
+    app.run()

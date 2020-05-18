@@ -1,0 +1,22 @@
+from mirai import Mirai, Image, Plain, MessageChain, Friend, Group, Member, Depend
+import asyncio
+from devtools import debug
+
+authKey = "1234567890"
+qq = 1234567890
+
+app = Mirai(f"mirai://192.168.3.98:8080/?authKey={authKey}&qq={qq}", websocket=True)
+
+arr = list()
+
+@app.receiver("FriendMessage")
+async def swis(app: Mirai, message: MessageChain, friend: Friend):
+
+    messages = MessageChain.toString(self=message)
+
+    arr.append(messages)
+
+    print(arr)
+
+if __name__ == "__main__":
+    app.run()

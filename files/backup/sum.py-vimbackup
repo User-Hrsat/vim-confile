@@ -1,0 +1,15 @@
+#! /usr/bin/env python
+
+evn = 0
+odn = 0
+
+for i in range(1, 101):
+    if i % 2 == 0:
+        evn += i
+
+for i in range(1,101):
+    if i % 2 == 1:
+        odn += i
+
+print(">>100以内所有奇数和为:",evn)
+print(">>100以内所有偶数和为:",odn)

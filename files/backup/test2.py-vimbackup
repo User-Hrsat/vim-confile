@@ -1,0 +1,132 @@
+#! /usr/bin/env python3.8
+
+from mirai import Mirai, Image, Plain, MessageChain, Friend, Group, Member, Depend
+import asyncio
+import time
+import os
+import re
+from devtools import debug
+
+authKey = "MeuPasswd"
+qq = 1291517893
+
+app = Mirai(f"mirai://192.168.3.98:8080/?authKey={authKey}&qq={qq}", websocket=True)
+
+arr = list()
+thre = 0
+badlan = ['SB', 'sb', '傻逼', '智障', 'zz', 'mdzz', '脑残', 'CAO', 'cao', '操', '草', '艹', '我日', '你🐎', 'face呢', '妈卖批']
+@app.receiver("GroupMessage")
+async def event_gm(app: Mirai, message: MessageChain, group: Group):
+
+    messages = MessageChain.toString(self=message)
+
+    if group.id == 1091328046:
+        if len(arr) < 5:
+            arr.append(messages)
+        print(arr)
+
+        if len(arr) >= 5:
+            i = 0
+            while i < 5:
+                print(i)
+                global thre
+                elem = arr[i]
+                freq = arr.count(elem)
+                if freq >= 3:
+                    if thre == 0:
+                        await app.sendGroupMessage(
+                                group,
+                                [
+                                    Plain(text="不要刷屏哦!")
+                                    ]
+                                )
+                        thre = 1
+                        arr.clear()
+                        break
+                    if thre == 1:
+                        await app.sendGroupMessage(
+                                group,
+                                [
+                                    Plain(text="不听话?口球伺候!")
+                                    ]
+                                )
+                        thre = 0
+                        arr.clear()
+                        break
+                    print(thre)
+                i = i + 1
+            arr.clear()
+
+    if messages in badlan:
+        await app.sendGroupMessage(
+            group,
+            [
+                Plain(text="注意文明用语!")
+            ]
+        )
+
+    if messages == "/image":
+        await app.sendGroupMessage(
+            group,
+            [
+                Image.fromFileSystem("/home/hrsat/Pictures/A.gif")
+            ]
+        )
+
+#    if group.id == 1091328046 and re.match("^/ping", messages) != None:
+    if re.match("^/ping", messages) != None:
+        
+        r = re.match("/ping ((25[0-5])|(2[0-4]d)|(1dd)|([1-9]d)|d)(.((25[0-5])|(2[0-4]d)|(1dd)|([1-9]d)|d)){3}", messages)
+        e = re.match("/ping [a-zA-Z0-9][-a-zA-Z0-9]{0,62}(.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+.?", messages)
+
+        if r != None or e != None:
+
+            resuatl = ''
+            messages = list(messages)
+            messages.pop(0)
+            messages = ''.join(messages)
+            command = os.popen(f"{messages} -c 4")
+            restr = command.readlines()
+            for line in restr:
+                resuatl += restr
+
+            await app.sendGroupMessage(
+                    group,
+                    [
+                        Plain(text=resuatl)
+                    ]
+            )
+
+        if r == None and e == None:
+
+            await app.sendGroupMessage(
+                    group,
+                    [
+                        Plain(text=
+"""
+正确用法:
+/ping IPor域名
+一定要填写正确的IP或域名哦!
+""")
+                    ]
+            )
+        
+    if messages  == "/help":
+        await app.sendGroupMessage(
+            group,
+            [
+               Plain(text="""
+用法: /[指令]
+
+/image      发送图片
+/ping       就是ping嘛
+/help       显示此帮助列表
+
+为什么要用“/”？
+便于辨识,可能对桌面用户不太友好
+               """) 
+            ]
+        )
+
+if __name__ == "__main__":
+    app.run()

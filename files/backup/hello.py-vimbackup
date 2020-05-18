@@ -1,0 +1,4 @@
+#! /usr/bin/env python3.8
+
+def acc():
+    print("I just a test project! And, hello!")

@@ -1,0 +1,6 @@
+#! /usr/bin/env python3.8
+
+import py_compile
+
+py_compile.compile("main.py")
+py_compile.compile("test.py")

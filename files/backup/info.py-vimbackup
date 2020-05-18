@@ -1,0 +1,7 @@
+#! /usr/bin/env python
+
+import mirai
+
+mirai.__file__
+mirai.__name__
+mirai.__doc__

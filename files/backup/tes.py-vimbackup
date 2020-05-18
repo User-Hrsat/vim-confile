@@ -1,0 +1,10 @@
+import os
+
+tes = ''
+
+ping = os.popen("ping baidu.com -c 4")
+resualt = ping.readlines()
+for line in resualt:
+    tes += line
+
+print(tes)

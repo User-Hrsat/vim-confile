@@ -1,0 +1,12 @@
+package Hello;
+
+/**
+ * Hello
+ */
+public class Hello {
+
+    public static void main(String argv[]){
+        Say s = new Say();
+        s.talk();
+    }
+}

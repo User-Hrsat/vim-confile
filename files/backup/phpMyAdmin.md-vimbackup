@@ -1,0 +1,148 @@
+---
+title: phpMyAdmin
+date: 2020-03-07 09:44:19
+categories: 开发
+tags: 环境配置
+---
+
+
+## phpMyAdmin
+
+> phpMyAdmin配置的琐碎细节，介于ArchWiki对于本菜鸡而言具有一定迷惑性
+
+ 简单说明:
+
+```txt
+    phpMyAdmin 是 MySQL 的一款第三方 WEB 客户端。由 Server 机提供(可
+能不限于此种形式)服务，需要手动设置 http/https 服务(这就触及我的知识
+盲区了)
+    环境：Manjaro(Arch)
+    (特声明默认PHP版本为7)
+```
+
+### 服务配置
+
+ArchWik 给提供了很多方案(确实让我等菜鸡有点迷)，我选了这一套：
+
+```txt
+    apache + php-fpm
+```
+
+#### 文件细则
+
+- /etc/php/php.ini 取消这两行注释：
+
+>视实际情况而定
+
+```txt
+    extension=pdo_mysql.so
+    extension=mysqli.so
+```
+
+#### Apache配置
+
+- 创建 Apache 配置文件：
+
+> 如果只想从本地访问 phpMyAdmin，将 Require all granted 改为 Require local
+
+```txt
+/etc/httpd/conf/extra/phpmyadmin.conf
+----------------------------------------------------------------
+Alias /phpmyadmin "/usr/share/webapps/phpMyAdmin"
+<Directory "/usr/share/webapps/phpMyAdmin">
+    DirectoryIndex index.php
+    AllowOverride All
+    Options FollowSymlinks
+    Require all granted
+</Directory>
+```
+
+- 在 /etc/httpd/conf/httpd.conf 加入配置：
+
+```txt
+# phpMyAdmin configuration
+Include conf/extra/phpmyadmin.conf
+```
+
+Apache 使用 PHP 的方式也有很多种，我选择 php-fpm
+
+- 启用代理模块
+
+```txt
+/etc/httpd/conf/httpd.conf
+---------------------------------------------------------------
+LoadModule proxy_module modules/mod_proxy.so
+LoadModule proxy_fcgi_module modules/mod_proxy_fcgi.so
+```
+
+- 创建文件
+
+```txt
+/etc/httpd/conf/extra/php-fpm.conf
+--------------------------------------------------------------
+DirectoryIndex index.php index.html
+<FilesMatch \.php$>
+    SetHandler "proxy:unix:/run/php-fpm/php-fpm.sock|fcgi://localhost/"
+</FilesMatch>
+```
+
+- 在 /etc/httpd/conf/httpd.conf 加入配置：
+
+```txt
+Include conf/extra/php-fpm.conf
+```
+
+重启 httpd 服务，端口被占用就把该进程杀掉
+
+- 测试 PHP 可用性，在 apache 文档根目录（即 /srv/http/ 或 ~public_html ）中写入：
+
+```php
+test.php
+-------------------------------------------------------------
+<?php phpinfo(); ?>
+```
+
+访问 http://localhost/test.php 或者 http://localhost/~myname/test.php 即可看到
+
+<center>
+<img src="img/result.png"/>
+<p>如上图所示即为可用</p>
+</center>
+
+此时即可访问 http://localhost/phpmyadmin/ 使用 phpMyAdmin
+
+<center>
+<img src="img/phpmyadmin.png"/>
+<p>效果如上图</p>
+</center>
+
+- 懒人桌面启动器：
+
+> 图标是内置的，也可以找一张丢在 /opt
+
+```desktop
+phpmyadmin.desktop
+------------------------------------------------------------
+[Desktop Entry]
+Name=phpMyAdmin
+Comment=MySQLClient
+Comment[zh_CN]=MySQL客户端
+#Keywords=
+Exec=chromium localhost/phpmyadmin %u
+#TryExec=
+Terminal=false
+Icon=phpmyadmin
+Type=Application
+Categories=Development;SQLClient;
+#MimeType=
+StartupNotify=true
+#StartupWMClass=
+#OnlyShowIn=
+Actions=new-window;
+```
+
+#### SSL/TLS支持
+
+> 先刨坑儿
+
+更多细节参见 https://wiki.archlinux.org/index.php/PhpMyAdmin
