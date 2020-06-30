@@ -1,8 +1,0 @@
-#! /usr/bin/env python3.8
-
-import keyword
-
-print(keyword.__doc__)
-print(keyword.__package__)
-
-print(keyword.values.kwlist)

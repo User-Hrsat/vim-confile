@@ -1,9 +1,0 @@
-package Hello;
-
-/**
- * Main
- */
-public interface Main {
-
-    public void talk();
-}

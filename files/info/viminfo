@@ -15,13 +15,60 @@
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1586006763,,"q"
+|2,0,1593508403,,"q"
+:wq
+|2,0,1593508400,,"wq"
+:MarkdownPreviewStop
+|2,0,1593508399,,"MarkdownPreviewStop"
 :w
-|2,0,1586005802,,"w"
+|2,0,1593508372,,"w"
+:MarkdownPreview
+|2,0,1593508222,,"MarkdownPreview"
+:node --trace-warnings
+|2,0,1593508173,,"node --trace-warnings"
+:5561
+<! # & * < = > @ Ag AirlineExtensions AirlineRefresh AirlineTheme AirlineToggle AirlineToggleWhitespace BCommits BLines BTags Buffers CocAction CocCommand CocConfig CocDiagnostics CocDisable CocEnable CocFix CocInfo CocInstall CocList CocListResume CocLocalConfig CocNext CocOpenLog CocPrev CocRebuild CocRestart CocSearch CocStart CocUninstall CocUpdate CocUpdateSync Colors Commands Commits DoMatchParen Explore FZF Files Filetypes GFiles GLVS GetLatestVimScripts GetScripts GitFiles Helptags Hexplore History IndentLinesDisable IndentLinesEnable IndentLinesReset IndentLinesToggle LP LPE LPF LPR LeadingSpaceDisable LeadingSpaceEnable LeadingSpaceToggle Lexplore Lines Locate LogiPat LogiPatFlags MANPAGER Maps MarkdownPreview MarkdownPreviewStop Marks MkVimball Mvn MvnEditTestCode MvnNewMainFile MvnNewTestFile NERDTree NERDTreeCWD NERDTreeClose NERDTreeFind NERDTreeFocus NERDTreeFromBookmark NERDTreeMirror NERDTreeRefreshRoot NERDTreeToggle NERDTreeToggleVCS NERDTreeVCS Neoformat NetUserPass NetrwClean NetrwSettings Nexplore Next NoMatchParen Nread Nsource Ntree Nwrite Pexplore Plug PlugClean PlugDiff PlugInstall PlugSnapshot PlugStatus PlugUpdate PlugUpgrade Print Rg RmVimball SClose SDelete SLoad SSave Sexplore Snippets Startify StartifyDebug TOhtml Tags Texplore UseVimball Vexplore VimballList Vimuntar WhichKey Windows X abbreviate abclear aboveleft all amenu anoremenu append argadd argdelete argdo argedit argglobal arglocal args argument ascii augroup aunmenu autocmd bNext badd ball bdelete behave belowright bfirst blast bmodified bnext botright bprevious break breakadd breakdel breaklist brewind browse bufdo buffer buffers bunload bwipeout cNext cNfile cabbrev cabclear cabove caddbuffer caddexpr caddfile cafter call catch cbefore cbelow cbottom cbuffer cc cclose cd cdo center cexpr cfdo cfile cfirst cgetbuffer cgetexpr cgetfile change changes chdir checkpath checktime chistory clast clearjumps clist close cmap cmapclear cmenu cnewer cnext cnfile cnoreabbrev cnoremap cnoremenu colder colorscheme comclear command compiler confirm const continue copen copy cpfile cprevious cquit crewind cscope cstag cunabbrev cunmap cunmenu cwindow debug debuggreedy def defcompile delcommand delete delfunction delmarks diffget diffoff diffpatch diffput diffsplit diffthis diffupdate digraphs disassemble display djump dlist doautoall doautocmd drop dsearch dsplit earlier echo echoerr echohl echomsg echon edit else elseif emenu enddef endfor endfunction endif endtry endwhile enew eval ex execute exit export exusage file files filetype filter finally find finish first fixdel fold foldclose folddoclosed folddoopen foldopen for function global goto grep grepadd gui gvim hardcopy help helpclose helpfind helpgrep helptags hide highlight history iabbrev iabclear if ijump ilist imap imapclear imenu import inoreabbrev inoremap inoremenu insert intro isearch isplit iunabbrev iunmap iunmenu join jumps k keepalt keepjumps keepmarks keeppatterns lNext lNfile labove laddbuffer laddexpr laddfile lafter language last later lbefore lbelow lbottom lbuffer lcd lchdir lclose lcscope ldo left leftabove let lexpr lfdo lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep lhistory list ll llast llist lmake lmap lmapclear lnewer lnext lnfile lnoremap loadkeymap loadview lockmarks lockvar lolder lopen lpfile lprevious lrewind ls ltag lua luado luafile lunmap lvimgrep lvimgrepadd lwindow make map mapclear mark marks match menu menutranslate messages mkexrc mksession mkspell mkview mkvimrc mode move mzfile mzscheme nbclose nbkey nbstart new next nmap nmapclear nmenu nnoremap nnoremenu noautocmd nohlsearch noreabbrev noremap noremenu normal noswapfile number nunmap nunmenu oldfiles omap omapclear omenu only onoremap onoremenu open options ounmap ounmenu ownsyntax packadd packloadall pclose pedit perl perldo pop popup ppop preserve previous print profdel profile promptfind promptrepl psearch ptNext ptag ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd py3 py3do py3file pydo pyfile python python3 pythonx pyx pyxdo pyxfile qall quit quitall read recover redir redo redraw redrawstatus redrawtabline registers resize retab return rewind right rightbelow ruby rubydo rubyfile rundo runtime rviminfo sNext sall sandbox sargument saveas sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind sbuffer scriptencoding scriptnames scriptversion scscope set setfiletype setglobal setlocal sfind sfirst shell sign silent simalt slast sleep smagic smap smapclear smenu smile snext snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrare spellrepall spellundo spellwrong split sprevious srewind stag startgreplace startinsert startreplace stjump stop stopinsert stselect substitute sunhide sunmap sunmenu suspend sview swapname syncbind syntax syntime t tNext tab tabNext tabclose tabdo tabedit tabfind tabfirst tablast tabmove tabnew tabnext tabonly tabprevious tabrewind tabs tag tags tcd tchdir tcl tcldo tclfile tearoff terminal tfirst throw tjump tlast tlmenu tlnoremenu tlunmenu tmap tmapclear tmenu tnext tnoremap topleft tprevious trewind try tselect tunmap tunmenu unabbreviate undo undojoin undolist unhide unlet unlockvar unmap unmenu unsilent update verbose version vertical vglobal view vim9script vimgrep vimgrepadd visual viusage vmap vmapclear vmenu vnew vnoremap vnoremenu vsplit vunmap vunmenu wNext wall while wincmd windo winpos winsize wnext wprevious wq wqall write wundo wviminfo xall xit xmap xmapclear xmenu xnoremap xnoremenu xrestore xunmap xunmenu yank z ~
+|2,0,1593508166,,>5560
+|<"! # & * < = > @ Ag AirlineExtensions AirlineRefresh AirlineTheme AirlineToggle AirlineToggleWhitespace BCommits BLines BTags Buffers CocAction CocCommand CocConfig CocDiagnostics CocDisable CocEnable CocFix CocInfo CocInstall CocList CocListResume CocLocalConfig CocNext CocOpenLog CocPrev CocRebuild CocRestart CocSearch CocStart CocUninstall CocUpdate CocUpdateSync Colors Commands Commits DoMatchParen Explore FZF Files Filetypes GFiles GLVS GetLatestVimScripts GetScripts GitFiles Helpt
+|<ags Hexplore History IndentLinesDisable IndentLinesEnable IndentLinesReset IndentLinesToggle LP LPE LPF LPR LeadingSpaceDisable LeadingSpaceEnable LeadingSpaceToggle Lexplore Lines Locate LogiPat LogiPatFlags MANPAGER Maps MarkdownPreview MarkdownPreviewStop Marks MkVimball Mvn MvnEditTestCode MvnNewMainFile MvnNewTestFile NERDTree NERDTreeCWD NERDTreeClose NERDTreeFind NERDTreeFocus NERDTreeFromBookmark NERDTreeMirror NERDTreeRefreshRoot NERDTreeToggle NERDTreeToggleVCS NERDTreeVCS Ne
+|<oformat NetUserPass NetrwClean NetrwSettings Nexplore Next NoMatchParen Nread Nsource Ntree Nwrite Pexplore Plug PlugClean PlugDiff PlugInstall PlugSnapshot PlugStatus PlugUpdate PlugUpgrade Print Rg RmVimball SClose SDelete SLoad SSave Sexplore Snippets Startify StartifyDebug TOhtml Tags Texplore UseVimball Vexplore VimballList Vimuntar WhichKey Windows X abbreviate abclear aboveleft all amenu anoremenu append argadd argdelete argdo argedit argglobal arglocal args argument ascii augro
+|<up aunmenu autocmd bNext badd ball bdelete behave belowright bfirst blast bmodified bnext botright bprevious break breakadd breakdel breaklist brewind browse bufdo buffer buffers bunload bwipeout cNext cNfile cabbrev cabclear cabove caddbuffer caddexpr caddfile cafter call catch cbefore cbelow cbottom cbuffer cc cclose cd cdo center cexpr cfdo cfile cfirst cgetbuffer cgetexpr cgetfile change changes chdir checkpath checktime chistory clast clearjumps clist close cmap cmapclear cmenu cn
+|<ewer cnext cnfile cnoreabbrev cnoremap cnoremenu colder colorscheme comclear command compiler confirm const continue copen copy cpfile cprevious cquit crewind cscope cstag cunabbrev cunmap cunmenu cwindow debug debuggreedy def defcompile delcommand delete delfunction delmarks diffget diffoff diffpatch diffput diffsplit diffthis diffupdate digraphs disassemble display djump dlist doautoall doautocmd drop dsearch dsplit earlier echo echoerr echohl echomsg echon edit else elseif emenu end
+|<def endfor endfunction endif endtry endwhile enew eval ex execute exit export exusage file files filetype filter finally find finish first fixdel fold foldclose folddoclosed folddoopen foldopen for function global goto grep grepadd gui gvim hardcopy help helpclose helpfind helpgrep helptags hide highlight history iabbrev iabclear if ijump ilist imap imapclear imenu import inoreabbrev inoremap inoremenu insert intro isearch isplit iunabbrev iunmap iunmenu join jumps k keepalt keepjumps 
+|<keepmarks keeppatterns lNext lNfile labove laddbuffer laddexpr laddfile lafter language last later lbefore lbelow lbottom lbuffer lcd lchdir lclose lcscope ldo left leftabove let lexpr lfdo lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep lhistory list ll llast llist lmake lmap lmapclear lnewer lnext lnfile lnoremap loadkeymap loadview lockmarks lockvar lolder lopen lpfile lprevious lrewind ls ltag lua luado luafile lunmap lvimgrep lvimgrepadd lwindow make map mapclea
+|<r mark marks match menu menutranslate messages mkexrc mksession mkspell mkview mkvimrc mode move mzfile mzscheme nbclose nbkey nbstart new next nmap nmapclear nmenu nnoremap nnoremenu noautocmd nohlsearch noreabbrev noremap noremenu normal noswapfile number nunmap nunmenu oldfiles omap omapclear omenu only onoremap onoremenu open options ounmap ounmenu ownsyntax packadd packloadall pclose pedit perl perldo pop popup ppop preserve previous print profdel profile promptfind promptrepl pse
+|<arch ptNext ptag ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd py3 py3do py3file pydo pyfile python python3 pythonx pyx pyxdo pyxfile qall quit quitall read recover redir redo redraw redrawstatus redrawtabline registers resize retab return rewind right rightbelow ruby rubydo rubyfile rundo runtime rviminfo sNext sall sandbox sargument saveas sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind sbuffer scriptencoding scriptnames scriptversion scscope set
+|< setfiletype setglobal setlocal sfind sfirst shell sign silent simalt slast sleep smagic smap smapclear smenu smile snext snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrare spellrepall spellundo spellwrong split sprevious srewind stag startgreplace startinsert startreplace stjump stop stopinsert stselect substitute sunhide sunmap sunmenu suspend sview swapname syncbind syntax syntime t tNext tab tabNext tabclose tabdo tabedit tabfind tabfirst tablast tabmov
+|<e tabnew tabnext tabonly tabprevious tabrewind tabs tag tags tcd tchdir tcl tcldo tclfile tearoff terminal tfirst throw tjump tlast tlmenu tlnoremenu tlunmenu tmap tmapclear tmenu tnext tnoremap topleft tprevious trewind try tselect tunmap tunmenu unabbreviate undo undojoin undolist unhide unlet unlockvar unmap unmenu unsilent update verbose version vertical vglobal view vim9script vimgrep vimgrepadd visual viusage vmap vmapclear vmenu vnew vnoremap vnoremenu vsplit vunmap vunmenu wNex
+|<t wall while wincmd windo winpos winsize wnext wprevious wq wqall write wundo wviminfo xall xit xmap xmapclear xmenu xnoremap xnoremenu xrestore xunmap xunmenu yank z ~"
+:CocConfig
+|2,0,1593508117,,"CocConfig"
+:tabnew
+|2,0,1593508105,,"tabnew"
+:CocList extensions
+|2,0,1593507429,,"CocList extensions"
+:PlugInstall
+|2,0,1593437770,,"PlugInstall"
+:source .vim/vimrc
+|2,0,1593437144,,"source .vim/vimrc"
+:q!
+|2,0,1593434573,,"q!"
+:CocInfo
+|2,0,1593434557,,"CocInfo"
+:CocInstall coc-pairs
+|2,0,1593430498,,"CocInstall coc-pairs"
+:CocUpdate
+|2,0,1593430478,,"CocUpdate"
+:CocUpdateSync
+|2,0,1593430474,,"CocUpdateSync"
+:PlugUpdate
+|2,0,1593430227,,"PlugUpdate"
+:CocListResume
+|2,0,1593430188,,"CocListResume"
+:CocInstall coc-java
+|2,0,1593430098,,"CocInstall coc-java"
 :W
 |2,0,1586005801,,"W"
-:wq
-|2,0,1586005736,,"wq"
 :Wq
 |2,0,1586005347,,"Wq"
 :tabedit test2.py
@@ -30,28 +77,20 @@
 |2,0,1585668666,,"tabedit ~/Trings/"
 :Q
 |2,0,1585653301,,"Q"
-:CocConfig
-|2,0,1585316135,,"CocConfig"
 :compiler gcc
 |2,0,1585316072,,"compiler gcc"
 :compiler g95
 |2,0,1585316063,,"compiler g95"
 :CocC
 |2,0,1585315990,,"CocC"
-:q!
-|2,0,1585313850,,"q!"
 :CocUninstall coc-ccls
 |2,0,1585313844,,"CocUninstall coc-ccls"
 :CocEnable
 |2,0,1585313818,,"CocEnable"
 :CocEnable coc-ccls
 |2,0,1585313814,,"CocEnable coc-ccls"
-:CocList extensions
-|2,0,1585313771,,"CocList extensions"
 :ccls
 |2,0,1585313762,,"ccls"
-:CocInfo
-|2,0,1585313755,,"CocInfo"
 :compiler gcc test.c
 |2,0,1585313689,,"compiler gcc test.c"
 :CocRestart
@@ -72,8 +111,6 @@
 |2,0,1585226550,,"CocInstall coc-search"
 :CocSearch coc-s
 |2,0,1585226513,,"CocSearch coc-s"
-:source .vim/vimrc
-|2,0,1585219617,,"source .vim/vimrc"
 :colorscheme shades_of_purple
 |2,0,1585219239,,"colorscheme shades_of_purple"
 :colorscheme monokai
@@ -90,30 +127,6 @@
 |2,0,1585217504,,"vp"
 :sp
 |2,0,1585217500,,"sp"
-:help cursor
-|2,0,1585133027,,"help cursor"
-:splitright
-|2,0,1585131630,,"splitright"
-:ter ++rows=6
-|2,0,1585130771,,"ter ++rows=6"
-:!
-|2,0,1585129979,,"!"
-:help 'guicursor'
-|2,0,1585129743,,"help 'guicursor'"
-:help cursor()
-|2,0,1585129242,,"help cursor()"
-:w!
-|2,0,1584962832,,"w!"
-:MarkdownPreview
-|2,0,1584933695,,"MarkdownPreview"
-:e swis.py
-|2,0,1584632443,,"e swis.py"
-:vertical split
-|2,0,1584632439,,"vertical split"
-:e test2.py
-|2,0,1584632376,,"e test2.py"
-:e test.py
-|2,0,1584632368,,"e test.py"
 
 # Search String History (newest to oldest):
 ?/minimist
@@ -142,1296 +155,393 @@
 # Debug Line History (newest to oldest):
 
 # 寄存器:
-"0	CHAR	0
-	r = re.match("/ping ((25[0-5])|(2[0-4]d)|(1dd)|([1-9]d)|d)(.((25[0-5])|(2[0-4]d)|(1dd)|([1-9]d)|d)){3}", messages)
-	    e = re.match("/ping [a-zA-Z0-9][-a-zA-Z0-9]{0,62}(.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+.?", messages)
-	    if r != None or e != None:
+""0	CHAR	0
+	{
+	    "java.jdt.ls.home": "/home/hrsat/jdtls",
+	    "suggest.autoTrigger": "always",
+	    "suggest.timeout": 500,
+	    "suggest.noselect": false,
+	    "suggest.acceptSuggestionOnCommitCharacter": true,
+	    "suggest.snippetIndicator": "🗸",
+	    "suggest.enablePreview": true,
 	
-	        await app.sendGroupMessage(
-	                group,
-	                [
-	                    Plain(text="功能待完善!")
-	                ]
-	        )
-	
-	    elif r == None or e == None:
-	
-	        await app.sendGroupMessage(
-	                group,
-	                [
-	                    Plain(text=
-	"""
-	正确用法:
-	/ping IPor域名
-	一定要填写正确的IP或域名哦!
-	""")
-	                ]
-	        )
-	
-	
-|3,0,0,0,26,0,1585999271,"r = re.match(\"/ping ((25[0-5])|(2[0-4]d)|(1dd)|([1-9]d)|d)(.((25[0-5])|(2[0-4]d)|(1dd)|([1-9]d)|d)){3}\", messages)","    e = re.match(\"/ping [a-zA-Z0-9][-a-zA-Z0-9]{0,62}(.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+.?\", messages)","    if r != None or e != None:","","        await app.sendGroupMessage(","                group,","                [","                    Plain(text=\"功能待完善!\")","                ]","        )","",>34
-|<"    elif r == None or e == None:","","        await app.sendGroupMessage(","                group,","                [","                    Plain(text=","\"\"\"","正确用法:","/ping IPor域名","一定要填写正确的IP或域名哦!","\"\"\")","                ]","        )","",""
+	    "languageserver": {
+	        "efm": {
+	            "command": "efm-langserver",
+	            "args": ["-c", "/home/hrsat/.config/efm-langserver/config.yaml"],
+	            "filetypes": ["vim", "eruby", "markdown", "yaml"]
+	        }
+	    },
+	    "coc.preferences.extensionUpdateCheck": "daily"
+	}
+|3,1,0,0,18,0,1593508186,"{","    \"java.jdt.ls.home\": \"/home/hrsat/jdtls\",","    \"suggest.autoTrigger\": \"always\",","    \"suggest.timeout\": 500,","    \"suggest.noselect\": false,","    \"suggest.acceptSuggestionOnCommitCharacter\": true,","    \"suggest.snippetIndicator\": \"🗸\",","    \"suggest.enablePreview\": true,","","    \"languageserver\": {","        \"efm\": {","            \"command\": \"efm-langserver\",",>85
+|<"            \"args\": [\"-c\", \"/home/hrsat/.config/efm-langserver/config.yaml\"],","            \"filetypes\": [\"vim\", \"eruby\", \"markdown\", \"yaml\"]","        }","    },","    \"coc.preferences.extensionUpdateCheck\": \"daily\"","}"
 "1	LINE	0
-	    if messages == "/image":
-	        await app.sendGroupMessage(
-	            group,
-	            [
-	                Image.fromFileSystem("/home/hrsat/Pictures/A.gif")
-	            ]
-	        )
 	
-|3,0,1,1,8,0,1585554383,"    if messages == \"/image\":","        await app.sendGroupMessage(","            group,","            [","                Image.fromFileSystem(\"/home/hrsat/Pictures/A.gif\")","            ]","        )",""
+|3,0,1,1,1,0,1593507429,""
 "2	LINE	0
-	* coc-marketplace	1.7.0	~/.config/coc/extensions/node_modules/coc-marketplace
-	+ coc-tsserver	1.4.12	~/.config/coc/extensions/node_modules/coc-tsserver
-	+ coc-python	1.2.9	~/.config/coc/extensions/node_modules/coc-python
-	+ coc-markdownlint	1.1.1	~/.config/coc/extensions/node_modules/coc-markdownlint
-	+ coc-json	1.2.5	~/.config/coc/extensions/node_modules/coc-json
-	+ coc-java	1.4.8	~/.config/coc/extensions/node_modules/coc-java
-	+ coc-html	1.2.3	~/.config/coc/extensions/node_modules/coc-html
-	+ coc-css	1.2.2	~/.config/coc/extensions/node_modules/coc-css
-	+ coc-ccls	0.0.5	~/.config/coc/extensions/node_modules/coc-ccls
-|3,0,2,1,9,0,1585313779,"* coc-marketplace	1.7.0	~/.config/coc/extensions/node_modules/coc-marketplace","+ coc-tsserver	1.4.12	~/.config/coc/extensions/node_modules/coc-tsserver","+ coc-python	1.2.9	~/.config/coc/extensions/node_modules/coc-python","+ coc-markdownlint	1.1.1	~/.config/coc/extensions/node_modules/coc-markdownlint","+ coc-json	1.2.5	~/.config/coc/extensions/node_modules/coc-json","+ coc-java	1.4.8	~/.config/coc/extensions/node_modules/coc-java",>65
-|<"+ coc-html	1.2.3	~/.config/coc/extensions/node_modules/coc-html","+ coc-css	1.2.2	~/.config/coc/extensions/node_modules/coc-css","+ coc-ccls	0.0.5	~/.config/coc/extensions/node_modules/coc-ccls"
+	" 将文件类型图标添加到Vim插件;例如:NERDTree,vim-airline,CtrlP,unite,Denite,lightline,vim-startify等
+	Plug 'ryanoasis/vim-devicons'
+	
+|3,0,2,1,3,0,1593437095,"\" 将文件类型图标添加到Vim插件;例如:NERDTree,vim-airline,CtrlP,unite,Denite,lightline,vim-startify等","Plug 'ryanoasis/vim-devicons'",""
 "3	LINE	0
-	* coc-marketplace	1.7.0	~/.config/coc/extensions/node_modules/coc-marketplace
-	* coc-ccls	0.0.5	~/.config/coc/extensions/node_modules/coc-ccls
-	+ coc-tsserver	1.4.12	~/.config/coc/extensions/node_modules/coc-tsserver
-	+ coc-python	1.2.9	~/.config/coc/extensions/node_modules/coc-python
-	+ coc-markdownlint	1.1.1	~/.config/coc/extensions/node_modules/coc-markdownlint
-	+ coc-json	1.2.5	~/.config/coc/extensions/node_modules/coc-json
-	+ coc-java	1.4.8	~/.config/coc/extensions/node_modules/coc-java
-	+ coc-html	1.2.3	~/.config/coc/extensions/node_modules/coc-html
-	+ coc-css	1.2.2	~/.config/coc/extensions/node_modules/coc-css
-|3,0,3,1,9,0,1585313774,"* coc-marketplace	1.7.0	~/.config/coc/extensions/node_modules/coc-marketplace","* coc-ccls	0.0.5	~/.config/coc/extensions/node_modules/coc-ccls","+ coc-tsserver	1.4.12	~/.config/coc/extensions/node_modules/coc-tsserver","+ coc-python	1.2.9	~/.config/coc/extensions/node_modules/coc-python","+ coc-markdownlint	1.1.1	~/.config/coc/extensions/node_modules/coc-markdownlint","+ coc-json	1.2.5	~/.config/coc/extensions/node_modules/coc-json",>65
-|<"+ coc-java	1.4.8	~/.config/coc/extensions/node_modules/coc-java","+ coc-html	1.2.3	~/.config/coc/extensions/node_modules/coc-html","+ coc-css	1.2.2	~/.config/coc/extensions/node_modules/coc-css"
+	" 缩进线
+	Plug 'Yggdroot/indentLine'
+	
+|3,0,3,1,3,0,1593437084,"\" 缩进线","Plug 'Yggdroot/indentLine'",""
 "4	LINE	0
+	" 缩进线
+	Plug 'Yggdroot/indentLine'
 	
-|3,0,4,1,1,0,1585313771,""
+|3,0,4,1,3,0,1593437072,"\" 缩进线","Plug 'Yggdroot/indentLine'",""
 "5	LINE	0
+	" 中文文档
+	Plug 'yianwillis/vimcdoc'
 	
-|3,0,5,1,1,0,1585313755,""
+|3,0,5,1,3,0,1593437050,"\" 中文文档","Plug 'yianwillis/vimcdoc'",""
 "6	LINE	0
+	"Markdown预览
+	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 	
-|3,0,6,1,1,0,1585313604,""
+|3,0,6,1,3,0,1593437039,"\"Markdown预览","Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }",""
 "7	LINE	0
+	" 按键管理
+	Plug 'liuchengxu/vim-which-key'
+	" On-demand lazy load
+	Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+	" To register the descriptions when using the on-demand load feature,
+	" use the autocmd hook to call which_key#register(), e.g., register for the Space key:
+	" autocmd! User vim-which-key call which_key#register('<Space>', 'g:which_key_map')
 	
-|3,0,7,1,1,0,1585226529,""
+|3,0,7,1,8,0,1593437004,"\" 按键管理","Plug 'liuchengxu/vim-which-key'","\" On-demand lazy load","Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }","\" To register the descriptions when using the on-demand load feature,","\" use the autocmd hook to call which_key#register(), e.g., register for the Space key:","\" autocmd! User vim-which-key call which_key#register('<Space>', 'g:which_key_map')",""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1585226097,""
+|3,0,8,1,1,0,1593434557,""
 "9	LINE	0
-	" zip.vim version v30
-	" Browsing zipfile /home/hrsat/mirai-api-http-v1.3.2.jar
-	" Select a file with cursor and press ENTER
 	
-	[/home/hrsat/mirai-api-http-v1.3.2.jar]
-	  End-of-central-directory signature not found.  Either this file is not
-	  a zipfile, or it constitutes one disk of a multi-part archive.  In the
-	  latter case the central directory and zipfile comment will be found on
-	  the last disk(s) of this archive.
-	zipinfo:  cannot find zipfile directory in one of /home/hrsat/mirai-api-http-v1.3.2.jar or
-	          /home/hrsat/mirai-api-http-v1.3.2.jar.zip, and cannot find /home/hrsat/mirai-api-http-v1.3.2.jar.ZIP, period.
-|3,0,9,1,11,0,1585226097,"\" zip.vim version v30","\" Browsing zipfile /home/hrsat/mirai-api-http-v1.3.2.jar","\" Select a file with cursor and press ENTER","","[/home/hrsat/mirai-api-http-v1.3.2.jar]","  End-of-central-directory signature not found.  Either this file is not","  a zipfile, or it constitutes one disk of a multi-part archive.  In the","  latter case the central directory and zipfile comment will be found on",>37
-|<"  the last disk(s) of this archive.","zipinfo:  cannot find zipfile directory in one of /home/hrsat/mirai-api-http-v1.3.2.jar or","          /home/hrsat/mirai-api-http-v1.3.2.jar.zip, and cannot find /home/hrsat/mirai-api-http-v1.3.2.jar.ZIP, period."
-""-	CHAR	0
-	i
-|3,1,36,0,1,0,1586005650,"i"
+|3,0,9,1,1,0,1593430188,""
+"-	CHAR	0
+	'
+|3,0,36,0,1,0,1593437108,"'"
 
 # 文件标记:
-'0  12  0  ~/Trings/GitHub/QQBot/tes.py
-|4,48,12,0,1586007278,"~/Trings/GitHub/QQBot/tes.py"
-'1  1  0  ~/Trings/GitHub/QQBot/test
-|4,49,1,0,1586006763,"~/Trings/GitHub/QQBot/test"
-'2  90  15  ~/Trings/GitHub/QQBot/test2.py
-|4,50,90,15,1586005803,"~/Trings/GitHub/QQBot/test2.py"
-'3  84  23  ~/Trings/GitHub/QQBot/test2.py
-|4,51,84,23,1586005737,"~/Trings/GitHub/QQBot/test2.py"
-'4  84  23  ~/Trings/GitHub/QQBot/test2.py
-|4,52,84,23,1586005737,"~/Trings/GitHub/QQBot/test2.py"
-'5  91  28  ~/Trings/GitHub/QQBot/test2.py
-|4,53,91,28,1586005690,"~/Trings/GitHub/QQBot/test2.py"
-'6  91  28  ~/Trings/GitHub/QQBot/test2.py
-|4,54,91,28,1586005690,"~/Trings/GitHub/QQBot/test2.py"
-'7  91  28  ~/Trings/GitHub/QQBot/test2.py
-|4,55,91,28,1586005690,"~/Trings/GitHub/QQBot/test2.py"
-'8  91  28  ~/Trings/GitHub/QQBot/test2.py
-|4,56,91,28,1586005690,"~/Trings/GitHub/QQBot/test2.py"
-'9  87  38  ~/Trings/GitHub/QQBot/test2.py
-|4,57,87,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
+'0  1  0  ~/.vim/coc-settings.json
+|4,48,1,0,1593508403,"~/.vim/coc-settings.json"
+'1  1  0  /boot/grub/grub.cfg
+|4,49,1,0,1593497408,"/boot/grub/grub.cfg"
+'2  1  0  /etc/fstab
+|4,50,1,0,1593497094,"/etc/fstab"
+'3  110  0  ~/.vim/vimrc
+|4,51,110,0,1593439110,"~/.vim/vimrc"
+'4  1  0  ~/test.java
+|4,52,1,0,1593434573,"~/test.java"
+'5  1  0  ~/test.py
+|4,53,1,0,1593434539,"~/test.py"
+'6  1  0  ~/.vim/coc-settings.json
+|4,54,1,0,1593430082,"~/.vim/coc-settings.json"
+'7  12  0  ~/Trings/GitHub/QQBot/tes.py
+|4,55,12,0,1586007278,"~/Trings/GitHub/QQBot/tes.py"
+'8  1  0  ~/Trings/GitHub/QQBot/test
+|4,56,1,0,1586006763,"~/Trings/GitHub/QQBot/test"
+'9  90  15  ~/Trings/GitHub/QQBot/test2.py
+|4,57,90,15,1586005803,"~/Trings/GitHub/QQBot/test2.py"
 
 # 跳转列表 (从新到旧):
--'  12  0  ~/Trings/GitHub/QQBot/tes.py
-|4,39,12,0,1586007278,"~/Trings/GitHub/QQBot/tes.py"
--'  1  0  ~/Trings/GitHub/QQBot/test
-|4,39,1,0,1586006763,"~/Trings/GitHub/QQBot/test"
--'  90  15  ~/Trings/GitHub/QQBot/test2.py
-|4,39,90,15,1586005803,"~/Trings/GitHub/QQBot/test2.py"
--'  90  15  ~/Trings/GitHub/QQBot/test2.py
-|4,39,90,15,1586005803,"~/Trings/GitHub/QQBot/test2.py"
--'  98  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,98,0,1586005790,"~/Trings/GitHub/QQBot/test2.py"
--'  98  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,98,0,1586005790,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005783,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005783,"~/Trings/GitHub/QQBot/test2.py"
--'  84  23  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,23,1586005737,"~/Trings/GitHub/QQBot/test2.py"
--'  84  23  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,23,1586005737,"~/Trings/GitHub/QQBot/test2.py"
--'  84  23  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,23,1586005737,"~/Trings/GitHub/QQBot/test2.py"
--'  84  23  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,23,1586005737,"~/Trings/GitHub/QQBot/test2.py"
--'  91  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,91,31,1586005731,"~/Trings/GitHub/QQBot/test2.py"
--'  91  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,91,31,1586005731,"~/Trings/GitHub/QQBot/test2.py"
--'  91  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,91,31,1586005731,"~/Trings/GitHub/QQBot/test2.py"
--'  91  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,91,31,1586005731,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005728,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005728,"~/Trings/GitHub/QQBot/test2.py"
--'  91  28  ~/Trings/GitHub/QQBot/test2.py
-|4,39,91,28,1586005690,"~/Trings/GitHub/QQBot/test2.py"
--'  91  28  ~/Trings/GitHub/QQBot/test2.py
-|4,39,91,28,1586005690,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005603,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005603,"~/Trings/GitHub/QQBot/test2.py"
--'  87  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,87,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  88  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,88,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  86  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,86,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  87  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,87,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  88  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,88,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  86  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,86,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  87  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,87,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  87  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,87,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  88  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,88,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  86  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,86,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  87  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,87,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  88  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,88,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  86  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,86,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  87  38  ~/Trings/GitHub/QQBot/test2.py
-|4,39,87,38,1586005534,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005397,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005397,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  82  33  ~/Trings/GitHub/QQBot/test2.py
-|4,39,82,33,1586005364,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005352,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005352,"~/Trings/GitHub/QQBot/test2.py"
--'  83  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,83,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  85  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,85,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  83  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,83,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  85  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,85,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  83  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,83,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  84  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  84  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  84  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  83  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,83,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  85  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,85,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  83  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,83,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  85  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,85,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  83  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,83,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  84  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  84  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  84  25  ~/Trings/GitHub/QQBot/test2.py
-|4,39,84,25,1586005349,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005286,"~/Trings/GitHub/QQBot/test2.py"
--'  1  0  ~/Trings/GitHub/QQBot/test2.py
-|4,39,1,0,1586005286,"~/Trings/GitHub/QQBot/test2.py"
--'  96  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,96,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  95  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,95,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  93  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,93,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  92  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,92,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  96  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,96,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  95  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,95,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  93  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,93,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  92  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,92,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  96  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,96,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  95  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,95,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  93  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,93,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  92  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,92,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  96  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,96,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  95  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,95,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  93  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,93,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  92  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,92,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  93  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,93,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  92  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,92,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  96  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,96,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  95  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,95,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  93  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,93,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  92  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,92,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  96  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,96,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  95  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,95,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  93  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,93,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  92  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,92,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  96  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,96,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  95  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,95,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  93  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,93,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  92  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,92,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  96  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,96,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
--'  95  31  ~/Trings/GitHub/QQBot/test2.py
-|4,39,95,31,1586005241,"~/Trings/GitHub/QQBot/test2.py"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1593508403,"~/.vim/coc-settings.json"
+-'  18  0  ~/.vim/README.md
+|4,39,18,0,1593508105,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1593507230,"~/.vim/README.md"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1593497408,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1593497408,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1593497408,"/boot/grub/grub.cfg"
+-'  1  0  /etc/fstab
+|4,39,1,0,1593497094,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1593497094,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1593497094,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1593497094,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1593497094,"/etc/fstab"
+-'  1  0  /etc/fstab
+|4,39,1,0,1593497094,"/etc/fstab"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  110  0  ~/.vim/vimrc
+|4,39,110,0,1593439110,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1593436493,"~/.vim/vimrc"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.java
+|4,39,1,0,1593434573,"~/test.java"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1593434539,"~/test.py"
 
 # 文件内的标记历史记录 (从新到旧):
 
-> ~/Trings/GitHub/QQBot/test
-	*	1586006759	0
-	"	1	0
-
-> ~/Trings/GitHub/QQBot/test2.py
-	*	1586005802	0
-	"	90	15
-	^	90	16
-	.	90	16
-	+	132	194
-	+	19	66
-	+	19	83
-	+	18	67
-	+	19	116
-	+	133	0
-	+	18	29
-	+	19	0
-	+	131	0
-	+	131	28
-	+	131	35
-	+	131	17
-	+	131	0
-	+	132	0
-	+	115	0
-	+	129	12
-	+	62	4
-	+	63	13
-	+	64	0
-	+	65	12
-	+	65	21
-	+	129	4
-	+	65	13
-	+	66	8
-	+	121	21
-	+	126	0
-	+	131	0
-	+	74	9
-	+	19	81
-	+	19	151
-	+	19	15
-	+	19	27
-	+	19	85
-	+	19	102
-	+	19	127
-	+	19	101
-	+	19	160
-	+	19	177
-	+	19	116
-	+	19	0
-	+	19	27
-	+	19	24
-	+	19	36
-	+	19	33
-	+	19	127
-	+	21	0
-	+	122	22
-	+	74	9
-	+	78	31
-	+	80	108
-	+	98	17
-	+	113	8
-	+	114	4
-	+	7	8
-	+	76	29
-	+	76	25
-	+	78	24
-	+	76	32
-	+	78	27
-	+	79	122
-	+	81	8
-	+	82	46
-	+	94	26
-	+	96	0
-	+	96	54
-	+	97	21
-	+	98	12
-	+	100	8
-	+	101	12
-	+	103	26
-	+	105	0
-	+	111	21
-	+	113	0
-	+	112	12
-	+	100	23
-	+	77	70
-	+	76	0
-	+	77	7
-	+	82	34
-	+	78	8
-	+	92	0
-	+	88	36
-	+	88	24
-	+	6	8
-	+	88	50
-	+	92	0
-	+	93	0
-	+	96	41
-	+	82	33
-	+	83	26
-	+	82	33
-	+	85	37
-	+	86	27
-	+	87	38
-	+	90	19
-	+	91	31
-	+	85	0
-	+	84	0
-	+	91	27
-	+	90	16
-	e	21	104
-	i	21	104
-
-> ~/Trings/GitHub/QQBot/tes.py
-	*	1586005725	0
-	"	12	0
-	^	7	27
-	.	7	26
-	+	1	32
-	+	7	32
-	+	8	10
-	+	7	6
-	+	8	15
-	+	9	9
-	+	8	16
-	+	7	14
-	+	8	25
-	+	9	20
-	+	9	49
-	+	10	8
-	+	2	0
-	+	3	10
-	+	10	14
-	+	12	8
-	+	10	16
-	+	9	20
-	+	10	17
-	+	10	13
-	+	3	7
-	+	10	14
-	+	9	20
-	+	10	0
-	+	7	22
-	+	4	0
-	+	5	14
-	+	7	26
-
-> ~/Trings/GitHub/QQBot/test.py
-	*	1585999327	0
-	"	31	0
-	^	28	32
-	.	28	31
-	+	11	0
-	+	13	68
-	+	3	8
-	+	19	27
-	+	15	48
-	+	11	15
-	+	19	26
-	+	20	8
-	+	22	24
-	+	23	17
-	+	22	22
-	+	24	47
-	+	25	17
-	+	26	8
-	+	8	44
-	+	7	19
-	+	8	43
-	+	10	87
-	+	4	8
-	+	19	26
-	+	4	14
-	+	19	23
-	+	4	14
-	+	19	20
-	+	4	9
-	+	19	10
-	+	17	32
-	+	19	15
-	+	15	62
-	+	17	10
-	+	15	69
-	+	15	50
-	+	17	17
-	+	19	19
-	+	17	43
-	+	16	17
-	+	17	118
-	+	18	98
-	+	19	36
-	+	40	8
-	+	32	17
-	+	33	34
-	+	39	16
-	+	33	34
-	+	36	16
-	+	38	3
-	+	34	0
-	+	38	0
-	+	35	12
-	+	37	38
-	+	24	47
-	+	28	30
-	+	19	10
-	+	28	31
-
-> ~/Trings/GitHub/QQBot/swis.py
-	*	1585996528	0
-	"	22	0
-	^	13	18
-	.	13	17
-	+	5	22
-	+	8	84
-	+	19	13
-	+	13	13
-	+	22	12
-	+	1	95
-	+	2	14
-	+	3	26
-	+	1	0
-	+	13	17
-
-> ~/Trings/GitHub/QQBot/pi
-	*	1585993694	0
-	"	1	0
-
-> ~/Trings/GitHub/TeamBlog/themes/alpha-dust/_config.yml
-	*	1585907837	0
-	"	33	22
-	^	33	23
-	.	33	22
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	33	22
-
-> ~/Trings/GitHub/Blog/themes/inside/_config.yml
-	*	1585907773	0
-	"	439	0
-
-> ~/Trings/GitHub/TeamBlog/NERD_tree_1
-	*	1585906591	0
-	"	20	0
-	.	1	0
-	+	1	0
-
-> ~/Trings/GitHub/TeamBlog/themes/alpha-dust/source/js/main.js
-	*	1585906591	0
-	"	1	0
-
-> ~/Trings/GitHub/TeamBlog/themes/alpha-dust/source/img/bg-pattern.png
-	*	1585906578	0
-	"	1	0
-
-> ~/Trings/GitHub/TeamBlog/README.md
-	*	1585906261	0
-	"	2	0
-
-> ~/Trings/GitHub/TeamBlog/yarn.lock
-	*	1585905981	0
-	"	951	13
-	^	873	14
-
-> ~/.vim/doc/help.cnx
-	*	1585905981	0
-	"	1	0
-
-> ~/Trings/GitHub/TeamBlog/_config.yml
-	*	1585905226	0
-	"	101	7
-	^	101	8
-	.	101	8
-	+	11	11
-	+	10	14
-	+	83	15
-	+	96	16
-	+	102	33
-	+	101	10
-	+	102	52
-	+	101	13
-	+	103	15
-	+	102	33
-	+	96	7
-	+	101	8
-
-> ~/.tmux/.tmux.conf.local
-	*	1585904088	0
-	"	296	0
-
-> ~/.tmux/.tmux.conf
-	*	1585904069	0
-	"	1	0
-
-> ~/.tmux.conf
-	*	1585903956	0
-	"	1231	0
-	.	12	0
-	+	12	51
-	+	12	0
-
-> ~/.tmux.conf.local
-	*	1585903788	0
-	"	302	31
-	^	302	32
-	.	45	31
-	+	298	80
-	+	302	44
-	+	302	0
-	+	45	30
-	+	54	42
-	+	45	31
-
-> ~/Trings/GitHub/TeamBlog/.gitignore
-	*	1585670886	0
-	"	7	0
-
-> ~/.zshrc
-	*	1585670263	0
-	"	120	0
-	.	120	0
-	+	124	48
-	+	125	39
-	+	120	0
-	+	11	0
-	+	125	0
-	+	125	40
-	+	125	103
-	+	125	52
-	+	125	40
-	+	125	0
-	+	102	31
-	+	102	0
-	+	120	0
-
-> ~/Trings/GitHub/TeamBlog/.git/config
-	*	1585668831	0
-	"	1	0
-	^	6	17
-	.	7	0
-	+	8	0
-	+	7	0
-
-> ~/Trings/GitHub/Blog/_config.yml
-	*	1585668704	0
-	"	50	0
-
-> ~/Trings/GitHub/Blog/source/_posts/log.md
-	*	1585662678	0
-	"	10	22
-	^	10	25
-	.	10	22
-	+	11	0
-	+	9	55
-	+	10	22
-
-> ~/Trings/Python/Test/keyword.py
-	*	1585653488	0
-	"	10	22
-	^	10	23
-	.	10	22
-	+	1	10
-	+	1	0
-	+	1	25
-	+	6	17
-	+	6	73
-	+	7	19
-	+	7	0
-	+	6	21
-	+	6	26
-	+	6	68
-	+	7	25
-	+	7	26
-	+	7	0
-	+	4	11
-	+	9	20
-	+	10	22
-
-> /usr/lib/python3.8/keyword.py
-	*	1585653301	0
-	"	28	0
-
-> ~/Downloads/mirai-0.31.1/mirai-core/src/commonMain/kotlin/net.mamoe.mirai/contact/QQ.kt
-	*	1585489067	0
-	"	27	0
-
-> ~/Downloads/mirai-0.31.1/mirai-core/src/jvmMain/kotlin/net/mamoe/mirai/Bot.kt
-	*	1585489019	0
-	"	97	0
-
-> ~/.gnome/apps/jetbrains-idea-ce.desktop
-	*	1585486481	0
-	"	5	4
-	^	5	5
-	.	5	5
-	+	5	5
-
-> ~/NERD_tree_1
-	*	1585486006	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Downloads/mirai-console-console-0.3.5/out/artifacts/mirai_console_mirai_console_jar/mirai-console.mirai-console.jar
-	*	1585317424	0
-	"	6	0
-	.	1	0
-	+	1	0
-
 > ~/.vim/coc-settings.json
-	*	1585316141	0
-	"	11	0
-	^	12	7
+	*	1593508400	0
+	"	1	0
+	^	1	1
 	.	11	0
-	+	11	1
-	+	21	1
-	+	20	1
-	+	19	1
-	+	18	1
-	+	17	2
-	+	16	2
-	+	15	3
-	+	14	4
-	+	13	5
+	+	10	24
+	+	10	364
+	+	10	354
+	+	10	341
+	+	10	324
+	+	10	281
+	+	10	255
+	+	10	218
+	+	10	130
+	+	10	75
+	+	10	23
+	+	10	40
 	+	11	0
-
-> ~/test.c
-	*	1585316130	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	12
-	+	1	36
-	+	1	11
-	+	1	20
-	+	3	1
-	+	4	27
-	+	6	12
-	+	1	1
-	+	1	0
-
-> ~/ccls/test.c
-	*	1585316076	0
-	"	7	0
-	^	7	1
-	.	7	0
-	+	4	26
-	+	7	0
-
-> ~/Downloads/mirai-console-console-0.3.5/mirai-console.properties
-	*	1585314984	0
-	"	1	0
-
-> ~/Downloads/idea-IC-193.6911.18/Install-Linux-tar.txt
-	*	1585314307	0
-	"	1	0
-
-> ~/.cache/.fr-s2Pf2a/idea-IC-193.6911.18/Install-Linux-tar.txt
-	*	1585314157	0
-	"	37	0
-
-> ~/Trings/test.c
-	*	1585313303	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> ~/Hello.c
-	*	1585313276	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	20
-	+	1	0
-
-> ~/Downloads/mirai-api-http-1.3.2/Hello.c
-	*	1585313232	0
-	"	2	0
-	^	2	0
-	.	1	18
-	+	1	18
-
-> ~/Downloads/mirai-api-http-1.3.2/mirai-api-http/src/main/kotlin/net/mamoe/mirai/api/http/HttpApiPluginBase.kt
-	*	1585313183	0
-	"	1	0
-
-> /usr/share/applications/idea.desktop
-	*	1585311579	0
-	"	11	0
-
-> ~/.vim/doc/quickfix.cnx
-	*	1585311379	0
-	"	859	79
-
-> ~/Trings/Python/Bedu.spec
-	*	1585309158	0
-	"	1	0
-
-> ~/Trings/Python/Test/Bedu.py
-	*	1585309069	0
-	"	1	0
-	^	5	10
-	.	5	9
-	+	3	49
-	+	6	12
-	+	3	49
-	+	6	8
-	+	11	13
-	+	6	16
-	+	10	6
-	+	6	8
-	+	8	6
-	+	6	9
-	+	9	0
-	+	10	0
-	+	9	11
-	+	10	15
-	+	11	12
-	+	11	19
-	+	10	17
-	+	10	0
-	+	3	49
-	+	4	10
-	+	11	22
-	+	11	37
-	+	11	28
-	+	11	13
-	+	11	24
-	+	11	23
-	+	11	28
-	+	11	21
-	+	11	24
-	+	11	25
-	+	11	13
-	+	11	22
-	+	11	32
-	+	11	24
-	+	11	13
-	+	11	28
-	+	4	24
-	+	8	20
-	+	6	1
-	+	4	0
-	+	11	12
-	+	3	7
-	+	4	3
-	+	6	0
-	+	11	27
-	+	4	0
-	+	14	20
-	+	13	4
-	+	14	5
-	+	5	9
-	+	19	10
-	+	5	18
-	+	14	13
-	+	11	13
-	+	12	0
-	+	2	0
-	+	15	0
-	+	5	9
-
-> ~/Trings/Python/font-patcher
-	*	1585309035	0
-	"	271	0
-
-> ~/Trings/GitHub/QQBot/bot.yml
-	*	1585305328	0
-	"	1	0
-
-> ~/Trings/GitHub/QQBot/info.py
-	*	1585305303	0
-	"	1	0
-	^	4	0
-	.	5	0
-	+	5	13
-	+	2	0
-	+	1	21
-	+	6	12
-	+	4	0
-	+	5	0
-
-> ~/.vim/vimrc
-	*	1585220111	0
-	"	85	0
-	^	17	5
-	.	9	0
-	+	49	0
-	+	180	0
-	+	5	71
-	+	6	44
-	+	26	50
-	+	27	53
-	+	28	51
-	+	29	31
-	+	30	41
-	+	32	61
-	+	20	26
-	+	8	26
-	+	33	68
-	+	34	50
-	+	35	62
-	+	37	62
-	+	38	68
-	+	40	32
-	+	41	0
-	+	35	47
-	+	43	44
-	+	44	47
-	+	46	65
-	+	47	65
-	+	50	41
-	+	51	44
-	+	50	44
-	+	52	87
-	+	53	53
-	+	54	50
-	+	83	0
-	+	150	0
-	+	151	12
-	+	153	0
-	+	8	26
-	+	9	0
-	+	8	0
-	+	9	0
-	+	8	0
-	+	9	0
-	+	8	0
-	+	9	0
-	+	8	0
-	+	9	0
-	+	8	0
-	+	9	0
-	+	8	0
-	+	17	4
-	+	9	0
-
-> ~/test
-	*	1585220097	0
-	"	1	0
-	^	100	11
-	.	100	10
-	+	100	10
-
-> ~/.Xclients
-	*	1585219892	0
-	"	9	6
-	^	9	6
-	.	9	0
-	+	9	0
-
-> ~/.xinitrc
-	*	1585219588	0
-	"	66	0
-
-> ~/.vim/doc/eval.cnx
-	*	1585133044	0
-	"	2944	12
 
 > ~/.vim/README.md
-	*	1585132410	0
-	"	4	11
-	^	4	14
-	.	4	11
-	+	2	2
-	+	3	17
-	+	4	11
-
-> ~/.vim/doc/options.cnx
-	*	1585129946	0
-	"	2945	5
-
-> ~/help.py
-	*	1584974922	0
-	"	1	0
-	^	1	22
-	.	1	21
-	+	1	0
-	+	4	0
-	+	1	11
-	+	5	18
-	+	2	0
-	+	1	21
-
-> ~/fp-info-cache
-	*	1584974891	0
-	"	71	0
-
-> ~/index.html
-	*	1584967062	0
-	"	8	9
-	^	5	72
-	.	8	9
-	+	6	14
-	+	4	20
-	+	12	10
-	+	8	39
-	+	9	36
+	*	1593508399	0
+	"	1	4
+	^	1	5
+	.	21	4
+	+	8	26
+	+	9	35
+	+	11	24
+	+	12	22
+	+	13	96
+	+	14	22
+	+	15	31
+	+	8	36
+	+	9	45
+	+	11	34
+	+	12	32
+	+	16	37
 	+	10	51
-	+	5	71
-	+	8	9
+	+	17	43
+	+	18	0
+	+	19	6
+	+	41	3
+	+	19	18
+	+	19	1
+	+	22	23
+	+	21	4
 
-> /srv/http/index.html
-	*	1584962839	0
-	"	1	0
-	^	9	57
-	.	9	54
-	+	4	29
-	+	7	10
-	+	10	14
-	+	10	0
-	+	7	39
-	+	8	34
-	+	9	54
-
-> ~/Downloads/gqrx.git/gqrx.desktop
-	*	1584936610	0
+> /etc/fstab
+	*	1593497090	0
 	"	1	0
 
-> ~/Documents/Tencent Files/2543823619/FileRecv/esp8266_wifi_duck/Settings.cpp
-	*	1584934370	0
-	"	90	0
+> ~/.vim/vimrc
+	*	1593439107	0
+	"	110	0
+	^	84	0
+	.	84	0
+	+	120	22
+	+	119	11
+	+	120	23
+	+	194	10
+	+	190	20
+	+	119	2
+	+	120	23
+	+	121	0
+	+	125	0
+	+	125	11
+	+	99	51
+	+	100	22
+	+	125	0
+	+	102	0
+	+	113	0
+	+	110	0
+	+	113	0
+	+	122	0
+	+	88	0
+	+	125	0
+	+	116	0
+	+	88	0
+	+	92	0
+	+	86	37
+	+	87	0
+	+	84	0
 
-> ~/Documents/Tencent Files/2543823619/FileRecv/esp8266_wifi_duck/data.h
-	*	1584934305	0
-	"	1	0
-
-> ~/Documents/Tencent Files/2543823619/FileRecv/esp8266_wifi_duck/esp8266_wifi_duck.ino
-	*	1584934299	0
-	"	97	14
-
-> ~/Documents/Tencent Files/2543823619/FileRecv/esp8266_wifi_duck/Settings.h
-	*	1584934244	0
-	"	3	11
-
-> ~/Downloads/gqrx-sdr-2.11.5-src/gqrx-sdr-2.11.5/README.md
-	*	1584933699	0
-	"	1	0
-
-> ~/Downloads/Papirus-Nord-master/Install.sh
-	*	1584860178	0
-	"	46	21
-	^	46	22
-	.	46	21
-	+	42	5
-	+	43	5
-	+	44	5
-	+	45	5
-	+	42	21
-	+	43	21
-	+	44	21
-	+	45	21
-	+	46	21
-
-> ~/hosts
-	*	1584709420	0
-	"	190	0
-
-> ~/pi
-	*	1584709399	0
-	"	46	0
-
-> ~/Trings/HTML/myweb/css/main.css
-	*	1584698360	0
-	"	65	0
-
-> ~/Trings/HTML/myweb/jsp/main.js
-	*	1584697986	0
-	"	21	0
-
-> ~/tes.py
-	*	1584640232	0
-	"	1	0
-	^	9	13
-	.	9	12
-	+	1	40
-	+	2	13
-	+	4	21
-	+	6	12
-	+	4	18
-	+	2	0
-	+	4	12
-	+	5	16
-	+	8	16
-	+	1	24
-	+	2	4
-	+	9	12
-
-> ~/Trings/GitHub/QQBot/NERD_tree_1
-	*	1584635481	0
-	"	6	0
-	.	1	0
-	+	1	0
-
-> ~/Trings/GitHub/QQBot/plugins/MiraiAPIHTTP/setting.yml
-	*	1584635481	0
-	"	1	0
-	^	10	15
-	.	10	14
-	+	13	20
-	+	10	14
-
-> ~/Trings/GitHub/QQBot/TimeBot.py
-	*	1584622366	0
-	"	37	18
-	.	9	18
-	+	9	18
-
-> ~/Trings/GitHub/QQBot/python-mirai/README.md
-	*	1584618672	0
-	"	1	0
-
-> ~/.config/neofetch/config.conf
-	*	1584613794	0
-	"	714	20
-	^	630	18
-	.	630	0
-	+	630	0
-
-> ~/Downloads/email-decode.min.js
-	*	1584605170	0
-	"	1	0
-
-> ~/Documents/Tencent Files/2543823619/FileRecv/gtk.php
-	*	1584596073	0
-	"	50	0
-
-> ~/Trings/GitHub/QQBot/mirai-console-wrapper-0.1.3-all.jar
-	*	1584589352	0
-	"	12877	0
-	.	1	0
-	+	1	0
-
-> ~/Trings/GitHub/QQBot/device.json
-	*	1584587719	0
-	"	1	0
-
-> ~/.config/pip/pip.conf
-	*	1584457698	0
-	"	1	0
-
-> ~/Trings/GitHub/test2.py
-	*	1584437804	0
-	"	1	0
-	^	13	30
-	.	13	29
-	+	5	11
-	+	6	14
-	+	12	55
-	+	17	63
-	+	5	20
-	+	8	34
-	+	12	58
-	+	13	29
-
-> ~/Trings/GitHub/TimeBot.py
-	*	1584437252	0
-	"	69	0
-	^	11	6
-	.	11	5
-	+	16	14
-	+	8	0
-	+	9	0
-	+	12	0
-	+	11	5
-
-> ~/Trings/GitHub/test.py
-	*	1584436044	0
-	"	10	0
-
-> ~/Trings/GitHub/plugins/MiraiAPIHTTP/setting.yml
-	*	1584433946	0
-	"	13	20
-	^	13	21
-	.	13	20
-	+	13	20
-
-> ~/Trings/GitHub/NERD_tree_1
-	*	1584433641	0
-	"	7	0
-	.	1	0
-	+	1	0
-
-> ~/Trings/GitHub/device.json
-	*	1584433624	0
-	"	1	0
-
-> ~/Trings/GitHub/bot.yml
-	*	1584433613	0
-	"	3	0
-
-> ~/Trings/GitHub/python-mirai/test.py
-	*	1584433196	0
-	"	1	50
-	^	7	0
-	.	5	11
-	+	17	12
-	+	4	14
-	+	5	11
-
-> ~/Trings/GitHub/python-mirai/test2.py
-	*	1584431863	0
-	"	1	0
-	^	5	27
-	.	6	0
-	+	6	14
-	+	6	0
-
-> ~/Trings/GitHub/python-mirai/README.md
-	*	1584431306	0
-	"	29	0
-
-> ~/Trings/GitHub/python-mirai/requirements.txt
-	*	1584431126	0
-	"	1	0
-
-> ~/Trings/GitHub/python-mirai/setup.py
-	*	1584430502	0
-	"	1	0
-
-> ~/Trings/GitHub/mirai/README.md
-	*	1584427750	0
-	"	146	4
-
-> ~/Downloads/proxy.pac
-	*	1584348796	0
-	"	1	0
-
-> ~/Trings/Python/TimeBot.py
-	*	1584189878	0
+> ~/test.java
+	*	1593434572	0
 	"	1	0
 	^	1	0
-	.	2	0
+	.	1	0
 	+	1	0
-	+	2	0
 
-> ~/Bedu.py
-	*	1584181681	0
+> ~/test.py
+	*	1593434537	0
 	"	1	0
-
-> ~/Trings/Python/Test/Bedu.c
-	*	1584181191	0
-	"	1	0
-	^	32	0
-	.	32	0
-	+	34	1
-	+	4	0
-	+	10	50
-	+	15	0
-	+	14	0
-	+	15	50
-	+	23	4
-	+	25	0
-	+	28	0
-	+	26	34
-	+	28	0
-	+	32	0
-
-> /etc/pacman.d/mirrorlist
-	*	1584094527	0
-	"	1	0
-
-> /etc/hosts
-	*	1584086770	0
-	"	12	0
+	^	1	0
+	.	1	0
+	+	1	0

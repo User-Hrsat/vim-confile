@@ -1,2 +1,0 @@
-var usrIn = prompt(">>Test: ");
-alert(usrIn)

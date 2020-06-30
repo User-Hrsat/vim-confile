@@ -1,9 +1,0 @@
-#! /usr/bin/env python
-
-a = ['一百以内可以被九整除的数如下:']
-for i in range(1, 100):
-    if i % 9 == 0:
-        a.append(i)
-
-for i in a:
-    print(i)

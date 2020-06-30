@@ -8,17 +8,6 @@
     "suggest.enablePreview": true,
 
     "languageserver": {
-        "ccls": {
-            "command": "ccls",
-            "filetypes": ["c", "cpp", "objc", "objcpp"],
-            "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
-            "initializationOptions": {
-                "cache": {
-                    "directory": "/tmp/ccls"
-                }
-            }
-        },
-
         "efm": {
             "command": "efm-langserver",
             "args": ["-c", "/home/hrsat/.config/efm-langserver/config.yaml"],

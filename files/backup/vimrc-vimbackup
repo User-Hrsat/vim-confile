@@ -84,28 +84,43 @@ Plug 'mhinz/vim-startify'
 " 彩色标题栏
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" Plug 'powerline/powerline'
-
-" 将文件类型图标添加到Vim插件;例如:NERDTree,vim-airline,CtrlP,unite,Denite,lightline,vim-startify等
-Plug 'ryanoasis/vim-devicons'
-
-" 缩进线
-Plug 'Yggdroot/indentLine'
 
 " 文件树
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+" 将文件类型图标添加到Vim插件;例如:NERDTree,vim-airline,CtrlP,unite,Denite,lightline,vim-startify等
+Plug 'ryanoasis/vim-devicons'
+
 " 补全
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" 中文文档
-Plug 'yianwillis/vimcdoc'
+" 模糊搜索
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" 按键管理
+Plug 'liuchengxu/vim-which-key'
+" On-demand lazy load
+Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+" To register the descriptions when using the on-demand load feature,
+" use the autocmd hook to call which_key#register(), e.g., register for the Space key:
+" autocmd! User vim-which-key call which_key#register('<Space>', 'g:which_key_map')
 
 "Markdown预览
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 
-" Plug 'artur-shaik/vim-javacomplete2'
+"Java"
+Plug 'mikelue/vim-maven-plugin'
+
+" 缩进线
+Plug 'Yggdroot/indentLine'
+
+" 排版
+Plug 'sbdchd/neoformat'
+
+" 中文文档
+Plug 'yianwillis/vimcdoc'
 
 " 官方示例
 " Make sure you use single quotes
@@ -171,3 +186,9 @@ let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
+
+" 保存时自动排版
+augroup fmt
+  autocmd!
+  autocmd BufWritePre * undojoin | Neoformat
+augroup END
