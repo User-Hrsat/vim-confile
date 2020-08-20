@@ -1,0 +1,13 @@
+## 该配置为全局配置，对所有Session有效
+
+# 可选，默认值为8080
+port: 8000          
+
+# 可选，默认由插件随机生成，建议手动指定
+authKey: MeuPasswd  
+
+# 可选，缓存大小，默认4096.缓存过小会导致引用回复与撤回消息失败
+cacheSize: 8192
+
+# 可选，是否开启websocket，默认关闭，建议通过Session范围的配置设置
+enableWebsocket: True

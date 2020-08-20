@@ -16,12 +16,12 @@
 - `coc-pairs`自动补充后半个括号
 - `coc-marketplsce`忘了是干什么的了
 
-> 配置如下⚙️
+> 配置如下⚙
 ```json
 FILE:coc-settings.json
 ------------------------
 {
-    "java.jdt.ls.home": "/home/hrsat/jdtls",
+    "java.jdt.ls.home": "your jdtls home path",
     "suggest.autoTrigger": "always",
     "suggest.timeout": 500,
     "suggest.noselect": false,

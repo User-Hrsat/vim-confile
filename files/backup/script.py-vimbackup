@@ -1,0 +1,67 @@
+#! /usr/bin/env python3
+
+print("=====================")
+#------------第一题
+print("""
+姓名:       柴添鑫
+学号: 201803010840
+性别:           男
+入学时间:     2018
+""")
+
+print("=====================")
+#------------第二题
+while True:
+
+    try:
+        num = int(input(">>给我一个整数,我来判定奇偶:"))
+
+        if num % 2 == 0:
+            print(">>是偶数!")
+            break
+
+        elif num % 2 == 1:
+            print(">>是奇数!")
+            break
+    
+    except ValueError:
+        print(">>请输入整数!")
+
+
+print("=====================")
+#------------第三题
+weather = {
+        '1' : '晴天',
+        '2' : '阴天',
+        '3' : '小雨',
+        '4' : '中雨',
+        '5' : '大雨',
+        '6' : '阴天',
+        '7' : '晴天'
+        }
+
+while True:
+
+    try:
+        choice = weather[input('>>输入对应的数字查询本周天气:')]
+        print(f">>当天天气为{choice}!")
+        break
+    
+    except:
+        print('>>请输入1~7的正整数!')
+
+print("=====================")
+#------------第四题
+from random import shuffle
+
+egg = ['egg0', 'egg1', 'egg2', 'egg3', 'egg4', 'egg5', 'egg6', 'egg7', 'egg8', 'egg9']
+
+shuffle(egg)
+m = int(len(egg)/5)
+plate = list()
+
+for i in range(0, len(egg), m):
+    plate.append(egg[i:i+m])
+
+print(plate)
+print("=====================")
