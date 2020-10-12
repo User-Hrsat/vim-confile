@@ -1,5 +1,12 @@
 {
   "java.jdt.ls.home": "/usr/share/java/jdtls",
+  "html.autoClosingTags": true,
+  "html.format.enable": true,
+  "pairs.disableLanguages": [
+    "html",
+    "vue"
+  ],
+  "vetur.format.options.tabSize": 4,
   "suggest.autoTrigger": "always",
   "suggest.timeout": 500,
   "suggest.noselect": false,

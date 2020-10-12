@@ -5,8 +5,8 @@ set nocompatible           " 去除Vi一致性
 filetype plugin indent on  " 根据检测到的文件类型加载插件
 syntax on                  " 开启语法高亮
 
-"set t_Co        =256      " 256色
-set termguicolors
+set t_Co        =256      " 256色
+"set termguicolors
 colorscheme vim-monokai-tasty
 
 set encoding    =utf-8     " Vim 内部编码
@@ -94,6 +94,18 @@ Plug 'ryanoasis/vim-devicons'
 
 " 补全
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'clangd/coc-clangd', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-css', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-java', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-html', {'do': 'yarn install --frozen-lockfile'}
+Plug 'fannheyward/coc-markdownlint', {'do': 'yarn install --frozen-lockfile'}
+Plug 'fannheyward/coc-marketplace', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-pairs', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
+
 
 " 模糊搜索
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -158,6 +170,10 @@ call plug#end()
 
 " Airline配置
 let g:airline_powerline_fonts = 1  " powerline 字体
+
+let g:airline#extensions#coc#enabled = 1
+let airline#extensions#coc#stl_format_err = '%E{[%e(#%fe)]}' 
+let airline#extensions#coc#stl_format_warn = '%W{[%w(#%fw)]}'
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
