@@ -1,5 +1,11 @@
 # Myself Vim Configuration File
 
+#### Plug管理Coc插件
+```shell
+Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+```
+- 目录下无lib即该插件不起效,在该目录下执行`yarn install --frozen-lockfile`即可
+
 #### Coc插件备忘📝
 
 - `coc-python`Python补全,语法检测
