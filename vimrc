@@ -92,6 +92,9 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " 将文件类型图标添加到Vim插件;例如:NERDTree,vim-airline,CtrlP,unite,Denite,lightline,vim-startify等
 Plug 'ryanoasis/vim-devicons'
 
+" 浮动窗口
+Plug 'voldikss/vim-floaterm'
+
 " 补全
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'clangd/coc-clangd', {'do': 'yarn install --frozen-lockfile'}
