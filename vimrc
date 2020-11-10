@@ -109,6 +109,8 @@ Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
 
+" SQL
+Plug 'vim-scripts/SQLUtilities'
 
 " 模糊搜索
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
