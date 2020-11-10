@@ -19,3 +19,13 @@ Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 - `coc-pairs`自动补充后半个括号(跟coc-html的自动括号冲突，需排除html及vue)
 - `coc-marketplsce`忘了是干什么的了
 - `coc-vetur`vue的补全(需vls语言服务,npm安装;需eslint)
+
+#### SQL的补全问题
+
+```txt
+    coc-sql只有缩进和格式化
+    内置插件要用动态补全也要dbext
+    SQLUtilities怎么用也不知道
+    似乎有把Vim发射给数据库的方法
+    参考:https://davedevelopment.co.uk/2007/03/29/how-to-send-sql-commands-to-a-database-in-vim.html
+```
