@@ -109,26 +109,23 @@ Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
 
-" SQL
-Plug 'vim-scripts/SQLUtilities'
-
 " 模糊搜索
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'junegunn/fzf.vim'
 
 " 按键管理
-Plug 'liuchengxu/vim-which-key'
+" Plug 'liuchengxu/vim-which-key'
 " On-demand lazy load
-Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+" Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
 " To register the descriptions when using the on-demand load feature,
 " use the autocmd hook to call which_key#register(), e.g., register for the Space key:
 " autocmd! User vim-which-key call which_key#register('<Space>', 'g:which_key_map')
 
-"Markdown预览
+" Markdown预览
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 
-"Java"
-Plug 'mikelue/vim-maven-plugin'
+" Java"
+" Plug 'mikelue/vim-maven-plugin'
 
 " 缩进线
 Plug 'Yggdroot/indentLine'
