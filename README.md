@@ -17,7 +17,7 @@ Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 - `coc-json`JSON补全
 - `coc-markdownlint`MarkDown补全
 - `coc-pairs`自动补充后半个括号(跟coc-html的自动括号冲突，需排除html及vue)
-- `coc-marketplsce`忘了是干什么的了
+- `coc-marketplsce`coc的插件市场
 - `coc-vetur`vue的补全(需vls语言服务,npm安装;需eslint)
 
 #### SQL的补全问题
@@ -29,3 +29,14 @@ Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
     似乎有把Vim发射给数据库的方法
     参考:https://davedevelopment.co.uk/2007/03/29/how-to-send-sql-commands-to-a-database-in-vim.html
 ```
+
+#### 按键映射的问题
+
+**似乎设置并没有的到预期的结果，需要再研究一下**
+
+#### 光标变方块
+
+- 在打开内置终端之后光标就会又下划线变为方块
+- 有点不舒服，不知道能不能带参启动
+- 并把配置文件指向远虚拟终端的
+- 解决之后就可以快乐的使用浮动窗口了

@@ -12,7 +12,7 @@ colorscheme vim-monokai-tasty
 set encoding    =utf-8     " Vim 内部编码
 set termencoding=utf-8     " Vim 在于屏幕/键盘交互时使用的编码(取决与实际的终端设定)
 set fileencoding=utf-8     " 当前编辑的文件在存储时的编码
-set fileencodings=ucs-bom,utf-8,gbk  " 打开文件时的尝试使用的编码
+set fileencodings=utf-8,gbk  " 打开文件时的尝试使用的编码
 
 set number!                " 强制显示行号
 set autoindent             " 根据上一行缩进
@@ -44,7 +44,7 @@ set cursorline             " 高亮光标所在行
 set cursorcolumn           " 高亮光标所在列
 set wrapscan               " Searches wrap around end-of-file. 循环搜索至文件末尾
 set report      =0         " 始终报告更改的行
-set synmaxcol   =200       " 仅突出显示前200列
+" set synmaxcol   =200       " 仅突出显示前200列
 
 " set list lcs=tab:\|\
 " if has('multi_byte') && &encoding ==# 'utf-8'
@@ -130,6 +130,10 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 " 缩进线
 Plug 'Yggdroot/indentLine'
 
+" 高亮相同的内容
+Plug 'itchyny/vim-cursorword'
+Plug 'lfv89/vim-interestingwords'
+
 " 排版
 Plug 'sbdchd/neoformat'
 
@@ -197,8 +201,8 @@ let g:airline_symbols.maxlinenr = ' '
 let g:mkdp_browser = "chromium"
 
 " NERDTree设置
-let g:NERDTreeDirArrowExpandable = ' '
-let g:NERDTreeDirArrowCollapsible = ' '
+let g:NERDTreeDirArrowExpandable = ''
+let g:NERDTreeDirArrowCollapsible = ''
 let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
 let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
 let g:NERDTreeFileExtensionHighlightFullName = 1
@@ -210,3 +214,6 @@ augroup fmt
   autocmd!
   autocmd BufWritePre * undojoin | Neoformat
 augroup END
+
+" 高亮插件随机色彩
+let g:interestingWordsRandomiseColors = 1
