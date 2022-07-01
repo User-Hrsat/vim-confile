@@ -5,8 +5,7 @@ set nocompatible           " 去除Vi一致性
 filetype plugin indent on  " 根据检测到的文件类型加载插件
 syntax on                  " 开启语法高亮
 
-"set t_Co        =256      " 256色
-set termguicolors
+set termguicolors          " 开启真彩色
 colorscheme vim-monokai-tasty
 
 set encoding    =utf-8     " Vim 内部编码
@@ -92,22 +91,27 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " 将文件类型图标添加到Vim插件;例如:NERDTree,vim-airline,CtrlP,unite,Denite,lightline,vim-startify等
 Plug 'ryanoasis/vim-devicons'
 
+" 高亮相同的内容
+Plug 'itchyny/vim-cursorword'
+Plug 'lfv89/vim-interestingwords'
+
+" 缩进线
+Plug 'Yggdroot/indentLine'
+
+" 代码格式化
+Plug 'sbdchd/neoformat'
+
+" 中文文档
+Plug 'yianwillis/vimcdoc'
+
+" Markdown预览
+Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && yarn install'}
+
+" Java"
+" Plug 'mikelue/vim-maven-plugin'
+
 " 浮动窗口
 Plug 'voldikss/vim-floaterm'
-
-" 补全
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'clangd/coc-clangd', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-css', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-java', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-html', {'do': 'yarn install --frozen-lockfile'}
-Plug 'fannheyward/coc-markdownlint', {'do': 'yarn install --frozen-lockfile'}
-Plug 'fannheyward/coc-marketplace', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-pairs', {'do': 'yarn install --frozen-lockfile'}
-Plug 'pappasam/coc-jedi', {'do': 'yarn install --frozen-lockfile && yarn build', 'branch': 'main'}
-Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
 
 " 模糊搜索
 " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -121,24 +125,33 @@ Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
 " use the autocmd hook to call which_key#register(), e.g., register for the Space key:
 " autocmd! User vim-which-key call which_key#register('<Space>', 'g:which_key_map')
 
-" Markdown预览
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+" 补全
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Java"
-" Plug 'mikelue/vim-maven-plugin'
+" C/C++
+Plug 'clangd/coc-clangd', {'do': 'yarn install --frozen-lockfile'}
 
-" 缩进线
-Plug 'Yggdroot/indentLine'
+" Python
+" Plug 'pappasam/coc-jedi', {'do': 'yarn install --frozen-lockfile && yarn build', 'branch': 'main'}
+Plug 'fannheyward/coc-pyright', {'do': 'yarn install --frozen-lockfile'}
 
-" 高亮相同的内容
-Plug 'itchyny/vim-cursorword'
-Plug 'lfv89/vim-interestingwords'
+" Java
+Plug 'neoclide/coc-java', {'do': 'yarn install --frozen-lockfile'}
 
-" 排版
-Plug 'sbdchd/neoformat'
+" 前端
+Plug 'neoclide/coc-html', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-css', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+" Vue
+Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
 
-" 中文文档
-Plug 'yianwillis/vimcdoc'
+" Markdown
+Plug 'fannheyward/coc-markdownlint', {'do': 'yarn install --frozen-lockfile'}
+
+Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-pairs', {'do': 'yarn install --frozen-lockfile'}
+
+Plug 'fannheyward/coc-marketplace', {'do': 'yarn install --frozen-lockfile'}
 
 " 官方示例
 " Make sure you use single quotes
@@ -195,7 +208,7 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = '☰ '
-let g:airline_symbols.maxlinenr = ' '
+let g:airline_symbols.maxlinenr = ''
 
 " Markdown预览默认浏览器
 let g:mkdp_browser = "chromium"
@@ -217,3 +230,4 @@ augroup END
 
 " 高亮插件随机色彩
 let g:interestingWordsRandomiseColors = 1
+
