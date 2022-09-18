@@ -131,6 +131,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " C/C++
 Plug 'clangd/coc-clangd', {'do': 'yarn install --frozen-lockfile'}
 
+" Rust
+Plug 'fannheyward/coc-rust-analyzer', {'do': 'yarn install --frozen-lockfile'}
+
 " Python
 " Plug 'pappasam/coc-jedi', {'do': 'yarn install --frozen-lockfile && yarn build', 'branch': 'main'}
 Plug 'fannheyward/coc-pyright', {'do': 'yarn install --frozen-lockfile'}
@@ -150,8 +153,6 @@ Plug 'fannheyward/coc-markdownlint', {'do': 'yarn install --frozen-lockfile'}
 
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-pairs', {'do': 'yarn install --frozen-lockfile'}
-
-Plug 'fannheyward/coc-marketplace', {'do': 'yarn install --frozen-lockfile'}
 
 " 官方示例
 " Make sure you use single quotes

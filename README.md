@@ -23,7 +23,6 @@ Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 - `coc-json` JSON
 - `coc-markdownlint` MarkDown
 - `coc-pairs` 自动补充后半个括号(与 `coc-html` 的自动括号冲突,需排除html及vue)
-- `coc-marketplsce` coc的插件市场
 - `coc-vetur` vue (需vls语言服务,npm安装;需eslint;应该是,不记得了)
 
 #### SQL的补全
