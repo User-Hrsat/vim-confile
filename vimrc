@@ -37,7 +37,7 @@ set lazyredraw             " 仅在必要时重绘
 set splitbelow             " 在当前窗口下方打开新窗口
 set splitright             " 在当前窗口的右侧打开新窗口
 
-"set guicursor   =a:hor1-blinkon1-blinkwait1
+set guicursor   =a:hor1-blinkon1-blinkwait1
 set cc          =80        " 80列提示线
 set cursorline             " 高亮光标所在行
 set cursorcolumn           " 高亮光标所在列
@@ -151,6 +151,7 @@ Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
 " Markdown
 Plug 'fannheyward/coc-markdownlint', {'do': 'yarn install --frozen-lockfile'}
 
+Plug 'josa42/coc-sh', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-pairs', {'do': 'yarn install --frozen-lockfile'}
 
@@ -210,6 +211,17 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = '☰ '
 let g:airline_symbols.maxlinenr = ''
+
+let g:startify_custom_header = [
+\'     ▄▄   ▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄   ▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ',
+\'    █  █▄█  █      █   ▄  █ █   █       █      █',
+\'    █       █  ▄   █  █ █ █ █   █  ▄▄▄▄▄█  ▄   █',
+\'    █       █ █▄█  █   █▄▄█▄█   █ █▄▄▄▄▄█ █▄█  █',
+\'    █       █      █    ▄▄  █   █▄▄▄▄▄  █      █',
+\'    █ ██▄██ █  ▄   █   █  █ █   █▄▄▄▄▄█ █  ▄   █',
+\'    █▄█   █▄█▄█ █▄▄█▄▄▄█  █▄█▄▄▄█▄▄▄▄▄▄▄█▄█ █▄▄█',
+\]
+
 
 " Markdown预览默认浏览器
 let g:mkdp_browser = "chromium"

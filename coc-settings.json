@@ -8,7 +8,7 @@
   ],
   "vetur.format.options.tabSize": 4,
   "suggest.autoTrigger": "always",
-  "suggest.timeout": 500,
+  "suggest.timeout": 200,
   "suggest.noselect": false,
   "suggest.acceptSuggestionOnCommitCharacter": true,
   "suggest.snippetIndicator": "🗸",
