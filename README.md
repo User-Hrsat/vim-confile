@@ -1,16 +1,19 @@
-## Vim Configuration
+# Vim Configuration
 
-### Coc.Nvim
+## Coc.Nvim
 
 ---
 
-#### Plug管理Coc插件
+## Plug管理Coc插件
+
 ```shell
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 ```
+
 - 目录下无lib即该插件不起效,在该目录下执行 `yarn install --frozen-lockfile` 即可
 
-#### 插件备忘📝
+## 插件备忘📝
+
 - [`coc-clangd`](https://github.com/clangd/coc-clangd) C/C++/Objet-C
 - [`coc-java`](https://github.com/neoclide/coc-java) Java (需配合 JDT 使用)
 - [`coc-pyright`](https://github.com/fannheyward/coc-pyright) Python
@@ -22,14 +25,18 @@ Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 - [`coc-markdownlint`](https://github.com/fannheyward/coc-markdownlint) Markdown
 - [`coc-pairs`](https://github.com/neoclide/coc-pairs) 自动补充后半个括号(与 `coc-html` 的自动括号冲突, 需排除 html 和 vue 文件)
 
-#### SQL的补全
+## SQL的补全
+
 - [`vim-dadbod`](https://github.com/tpope/vim-dadbod)
 - [`vim-dadbod-ui`](https://github.com/kristijanhusak/vim-dadbod-ui) 提供 UI
 - [`coc-sql`](https://github.com/fannheyward/coc-sql) 提供 `DataBase` `Table` `Column` 补全
 
-### TODO
+## TODO
+
 - [ ] 按键映射
 - [ ] 打开内置 Terminal 后,光标变方块
+- [ ] Windows Terminal 下粘贴时成对标点位置异常
+- [ ] 代码大纲
 
 > iamcco/markdown-preview.nvim
 ---
