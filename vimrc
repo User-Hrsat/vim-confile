@@ -78,7 +78,7 @@ else
 endif
 
 " Put all temporary files under the same directory.
-" https://github.com/mhinz/vim-galore#handling-backup-swap-undo-and-viminfo-files
+" https://github.com/mhinz/vim-galore#temporary-files
 set backup
 set backupdir   =$VIMFILEPATH/files/backup
 set backupext   =-vimbackup
@@ -243,7 +243,7 @@ let g:airline_symbols.linenr = '☰ '
 let g:airline_symbols.maxlinenr = ''
 
 " Coc.Nvim 按键映射 {{{2
-" 回车完成未被选择的第一行上屏「默认补全菜单无选择，逻辑真TM地怪 :(」
+" 回车完成未被选择的第一行上屏「默认补全菜单无选择，逻辑真™地怪 :(」
 inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 " Tab Shift-Tab 补全菜单导航
 inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
