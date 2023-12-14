@@ -25,7 +25,8 @@ set nocompatible            " 去除Vi一致性
 set termguicolors           " 开启真彩色
 colorscheme vim-monokai-tasty
 
-set number!                 " 强制显示行号
+set number!                 " 绝对行号
+set relativenumber!         " 相对行号
 
 set guicursor   =a:hor1-blinkon1-blinkwait1
 set colorcolumn =80         " 80列提示线
